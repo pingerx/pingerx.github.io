@@ -37,6 +37,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+skip_render: 
 
 # 关闭hexo提供的高亮
 highlight:
@@ -122,6 +123,3 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-
-# 不渲染README
-skip_render: README.md
