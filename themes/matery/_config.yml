@@ -26,7 +26,7 @@ dream:
   enable: true
   showTitle: true
   title: 一路向前
-  text: 越努力越幸运。一路走来，路上总是会有坑坑洼洼，有时一脚踩进去摔倒了，爬起来拍拍身上的灰，继续前行。
+  text: 越努力越幸运。一路走来，路上总是会有坑坑洼洼，有时一脚踩进去摔倒了，爬起来拍拍身上的灰，继续前行。路上注定是孤独的，但请相信，尽头一定会有一个人在等待。
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -122,7 +122,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: 软件工程师
-  introduction: 程序猿一枚，男，93年生，位置深圳。Java,Kotlin,Flutter,Python,Lisp都略有接触，最近在研究机器学习。
+  introduction: 程序猿一枚，男，93年生，位置Makati。Java，Kotlin，Flutter，Python，Lisp都略有接触，最近在研究机器学习和跨平台开发。性格孤僻，不易相处，请善待。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
