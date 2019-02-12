@@ -37,7 +37,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-skip_render: 
+skip_render:
 
 # 关闭hexo提供的高亮
 highlight:
@@ -55,7 +55,7 @@ index_generator:
   path: ''
   per_page: 18
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -84,7 +84,7 @@ theme: matery
 deploy:
   type: git
   repo: https://github.com/pingerx/pingerx.github.io.git
-  branch: master 
+  branch: master
 
 #-------------------------------------------------------------
 
