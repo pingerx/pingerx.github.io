@@ -1,4 +1,5 @@
-<div class="bg-cover <% if (is_home() && page.current === 1) { %>index-cover<% } %> about-cover" style="background-image: url('/medias/cover.jpg')">
+<div class="bg-cover <% if (is_home() && page.current === 1) { %>index-cover<% } %> about-cover">
+    <div class="bg-cover-after"></div>
     <div class="container">
         <div class="row">
             <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
@@ -44,5 +45,5 @@
 
 <script>
 // Dynamically switch banner pictures every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+$('.bg-cover-after').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
