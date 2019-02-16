@@ -1,19 +1,105 @@
 [{
     "avatar": "http://image.luokangyuan.com/1_qq_27922023.jpg",
     "name": "码酱",
-    "introduction": "我不是大佬，只是在追寻大佬的脚步",
+    "introduction": "我是追寻大佬脚步的大佬",
     "url": "http://luokangyuan.com/",
     "title": "前去学习"
-}, {
+}
+, {
     "avatar": "http://image.luokangyuan.com/4027734.jpeg",
     "name": "闪烁之狐",
-    "introduction": "从来没有真正的绝境，只有心灵的迷途",
+    "introduction": "真正的绝境和心灵的迷途",
     "url": "https://blinkfox.github.io/",
     "title": "前去学习"
-}, {
-    "avatar": "http://image.luokangyuan.com/avatar.jpg",
-    "name": "ja_rome",
-    "introduction": "平凡的脚步也可以走出伟大的行程",
-    "url": "ttps://me.csdn.net/jlh912008548",
+}
+, {
+    "avatar": "https://liyin.date/myfiles/images/avatar.png",
+    "name": "天空之边",
+    "introduction": "用心探知天空的边界",
+    "url": "https://liyin.date",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://avatars2.githubusercontent.com/u/14013990?s=400&v=4",
+    "name": "蠢黑通行",
+    "introduction": "一个人的全世界",
+    "url": "https://blackyau.cc",
+    "title": "前去学习"
+}
+, {
+    "avatar": "http://www.yougexing.net/uploads/180625/1-1P625150924-50.jpg",
+    "name": "萨摩公园",
+    "introduction": "我就是我，不食人间烟火",
+    "url": "https://i-meto.com",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://ephen.me/img/avatar.jpg",
+    "name": "Ephen",
+    "introduction": "CloudXNS 的看板娘~",
+    "url": "https://ephen.me/",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.0-9/13124946_496288693891792_6518521227477281110_n.jpg?_nc_cat=110&_nc_ht=scontent.fmnl4-3.fna&oh=d7d0ccf96765e0105139a0a056e7533b&oe=5CFA1A57",
+    "name": "Troy",
+    "introduction": "Troy 的星球",
+    "url": "https://itroy.cc",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://static.milkice.yecdn.com/wp-content/uploads/2017/12/avatar.jpg",
+    "name": "Milkice",
+    "introduction": "奶冰的冷藏室 奶冰的小窝",
+    "url": "https://milkice.me",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://d33wubrfki0l68.cloudfront.net/f9ea430b6b54be716e87189874b9bf3200806539/67714/images/avatar/me.jpeg",
+    "name": "迷の小窝",
+    "introduction": "没有简介的迷之生物",
+    "url": "https://blog.never.pet/",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://avatars1.githubusercontent.com/u/18414281?s=460&v=4",
+    "name": "Kejun",
+    "introduction": "二次元 zz",
+    "url": "https://blog.kejun.me/",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/7adf8f03-095d-409a-9748-8e7cfa6e0a5e/dcch0sj-438ec0b6-bdd3-4050-bbd9-27e2f9fdccf6.jpg",
+    "name": "DCC 的小窝",
+    "introduction": "DCC's Blog",
+    "url": "https://dcc.cat",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://ooo.0o0.ooo/2017/01/31/5890952d4f1e0.png",
+    "name": "iAcn",
+    "introduction": "盛世烟花为你而放",
+    "url": "https://iacn.me",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://i.app.lefile.cn/uc_server/data/avatar/00000/00001/01071/30322_profilehead.jpg",
+    "name": "无垠",
+    "introduction": "飞翔的天空无限大",
+    "url": "https://flyhigher.top/",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://myblogpic.b0.upaiyun.com/wp-content/uploads/2017/03/LOGO_%E5%89%AF%E6%9C%AC.png",
+    "name": "冰凌胧月的小窝",
+    "introduction": "聆听最初的声音",
+    "url": "https://imiku.me",
+    "title": "前去学习"
+}
+, {
+    "avatar": "https://source.isthnew.com/2016/02/13055QM5-0.png",
+    "name": "可乐没气的猫",
+    "introduction": "热爱科技，热爱生活",
+    "url": "https://www.isthnew.com",
     "title": "前去学习"
 }]
