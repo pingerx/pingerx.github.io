@@ -67,9 +67,9 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 192266024
-  github: https://github.com/pingerx
-  email: xmpinger@gmail.com
+  qq:
+  github:
+  email:
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型.
@@ -80,7 +80,7 @@ toc:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力
+  title: 谢谢你请我喝咖啡
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
@@ -128,7 +128,7 @@ profile:
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     hexo-theme-matery:
       icon: fa-meetup
@@ -155,21 +155,21 @@ mySkills:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 85%
-    JavaScript:
+    Kotlin:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 80%
-    HTML5:
+    Flutter:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
-    CSS:
+      percent: 60%
+    Python:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
-    SQL:
+      percent: 60%
+    List:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
+      percent: 50%
+    PS:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 75%
+      percent: 50%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
