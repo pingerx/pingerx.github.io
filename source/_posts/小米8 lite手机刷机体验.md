@@ -1,0 +1,31 @@
+---
+layout: post
+title: "小米8 lite手机刷机体验"
+date: 2019-03-02
+comments: true
+categories: "生活"
+img: https://raw.githubusercontent.com/pingerx/pingerx.github.io/hexo/source/images/20190304235819.png
+tags:
+- 2019
+- 叙事
+---
+
+
+最近使用小米8手机，发现miui系统还是挺不错的，但是有一个很致命的缺点，就是广告太多了，而且不能安装谷歌服务。
+miui系统除了有国内的版本，还有全球版。全球版内置了谷歌服务，并且没有广告，使用起来也是爽歪歪。
+
+#### 所以毫不犹豫，选择刷机。
+
+在网上找了下刷机的教程，知乎有个专题专门提供全球版刷机解决方案，按照里面的流程刷了一次，直接成功。
+
+[知乎专题](https://www.zhihu.com/question/50231539)
+
+刷机分为两种，一种是将rom包放到手机里，在手机的升级界面选择rom包进行升级刷机。一种是使用线刷工具，将rom包刷进手机。两种方式都是非常的简单。
+
+[刷机教程](http://en.miui.com/a-232.html)
+
+写完了这段文字，手机也刚刷好~ 又可以继续愉快的玩耍了。
+
+---
+2月6号，突然发现，之前刷的那个国际版本部分页面还是有谷歌的广告，蛋疼。
+知乎上有个回答是使用欧盟官方分销商ABC Data认可的MIUI系统。[xiaomi.eu](https://xiaomi.eu/community/)
