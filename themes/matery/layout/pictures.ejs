@@ -1,33 +1,98 @@
 <%- partial('_partial/bg-cover') %>
 
-<%
-// the gallery photos of theme _config.yml.
-var gallery = theme.myGallery.data;
-%>
-<div id="myGallery" class="my-gallery">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="fa fa-photo"></i>&nbsp;&nbsp;<%- __('gallery') %>
-    </div>
-    <div class="row">
-        <% if (gallery) { %>
-        <% Object.keys(gallery).forEach(function(photo) { %>
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="<%- gallery[photo] %>">
-                <img src="<%- gallery[photo] %>" class="responsive-img">
-            </div>
-        </div>
-        <% }); %>
-        <% } %>
-    </div>
-</div>
+<style>
+    .pictures-container {
+        margin-top: -100px;
+        padding: 0 1.2rem;
+        max-width: 1100px;
+    }
 
-<script>
-    $(function () {
-        let animateClass = 'animated pulse';
-        $('#myGallery .photo').hover(function () {
-            $(this).addClass(animateClass);
-        }, function () {
-            $(this).removeClass(animateClass);
-        });
-    });
-</script>
+    .picture-all .tag-post {
+        margin-bottom: 30px;
+    }
+
+
+    .photo {
+        margin: .5rem 0;
+    }
+
+
+
+    @-webkit-keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    @keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+
+    .photo .img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-size: cover;
+        position: relative;
+    }
+    .photo .img span {
+      position: absolute;
+      bottom: 10%;
+      left: 0;
+      width: 100%;
+      text-align: left;
+      padding-left: 20px;
+      color: #fff;
+      font-size: 20px;
+    }
+
+
+</style>
+
+<main class="content">
+    <div id="myGallery" class="container pictures-container">
+        <article>
+            <% if (site.data && site.data.pictures) { %>
+            <% var pictures = site.data.pictures; %>
+            <div class="row tags-posts picture-all">
+                <% for (var i = 0, len = pictures.length; i < len; i++) { %>
+                <% var picture = pictures[i]; %>
+
+                <div class="photo col s12 m6 l4" data-aos="fade-up">
+                    <div class="img img-item" data-src="<%- picture.imgs[0] %>" style="background-image: url(<%-  picture.imgs[0] %>);">
+                        <span class="card-title"><%-  picture.title %></span>
+                    </div>
+                </div>
+
+                <% } %>
+            </div>
+            <% } %>
+        </article>
+    </div>
+</main>
