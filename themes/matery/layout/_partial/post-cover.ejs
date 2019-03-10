@@ -22,12 +22,14 @@ if (page.img) {
 }
 %>
 
-<div class="bg-cover post-cover" style="background-image: url('<%- featureimg %>')">
+<div class="bg-cover post-cover" ">
+  <div class="post-cover-after" style="background-image: url('<%- featureimg %>')"></div>
+
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <div class="description center-align post-title">
+                    <div class="description center-align post-title" style="color:#FFF">
                         <%= page.title %>
                     </div>
                 </div>

@@ -355,11 +355,20 @@ header .go-back i {
     transform: translate3d(0px, 0px, 0px);
 }
 
+
+
 .post-cover {
     height: 50vh !important;
 }
 
-.bg-cover-after {
+div.post-cover-after {
+    height: 50vh !important;
+    filter: blur(6px);
+    position: absolute;
+    width: 100%;
+}
+
+.bg-cover-after, .post-cover-after {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
