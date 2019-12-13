@@ -1,0 +1,902 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="开发记录之自定义无限自动轮播的Banner控件, 万合天宜">
+    <meta name="description" content="
+显示的效果请往下看，先说一下需求，可以自动轮播，按下停止轮播，松手开始轮播，不可见时停止轮播，自动轮播时带动画，手动滑动时不带动画，点击时要有水波纹效果，下拉刷新回到第一页，页面不能卡顿等等。参考了一些网上的想法，结合自己的认知，总结如下">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>开发记录之自定义无限自动轮播的Banner控件 | 万合天宜</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">万合天宜</span>
+                    </a>
+                </div>
+                
+
+<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/pictures" class="waves-effect waves-light">
+            
+            <i class="fa fa-image"></i>
+            
+            <span>相册</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>朋友</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">万合天宜</div>
+        <div class="logo-desc">
+            
+            一路向前。面对人生种种境遇，顺其自然，不再纠缠，就是最优雅的人生。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/pictures" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-image"></i>
+                
+                相册
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                朋友
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/pingerx" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link">
+
+
+
+
+</div>
+</div>
+
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #039be5;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/pingerx" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+
+        
+    </nav>
+</header>
+
+
+
+
+
+<div class="bg-cover post-cover" ">
+  <div class="post-cover-after" style="background-image: url('/medias/featureimages/6.jpg')"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title" style="color:#FFF">
+                        开发记录之自定义无限自动轮播的Banner控件
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/开发/" target="_blank">
+                                <span class="chip bg-color">开发</span>
+                            </a>
+                        
+                            <a href="/tags/Android/" target="_blank">
+                                <span class="chip bg-color">Android</span>
+                            </a>
+                        
+                            <a href="/tags/2016/" target="_blank">
+                                <span class="chip bg-color">2016</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/develop/" class="post-category" target="_blank">
+                                develop
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2016-11-07
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.4k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        5 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <hr>
+<p>显示的效果请往下看，先说一下需求，可以自动轮播，按下停止轮播，松手开始轮播，不可见时停止轮播，自动轮播时带动画，手动滑动时不带动画，<br>点击时要有水波纹效果，下拉刷新回到第一页，页面不能卡顿等等。参考了一些网上的想法，结合自己的认知，总结如下。</p>
+<a id="more"></a>
+
+
+<h4 id="先上效果图"><a href="#先上效果图" class="headerlink" title="先上效果图"></a>先上效果图</h4><p><img width="40%" height="80%" src="http://upload-images.jianshu.io/upload_images/2786991-34861ad3cdcb4231.gif?imageMogr2/auto-orient/strip"></p>
+<h4 id="自定BannerView控件"><a href="#自定BannerView控件" class="headerlink" title="自定BannerView控件"></a>自定BannerView控件</h4><p>为了以后开发的方便，这里将Banner封装成一个控件来使用，以后就可以直接在布局里引用。</p>
+<p>做这种轮播效果一般采用的都是<code>ViewPager</code>，所以这个控件也是对<code>ViewPager</code>的封装，为了解耦，这里没有把适配器放在<code>BannerView</code>，只是提供了基类适配器和接口，使用很方便。</p>
+<p>讲一下具体如何实现封装：<br>第一步：自定义控件，实现构造，初始化属性和视图。</p>
+<ul>
+<li>基于需求，先定义了页面边距，主页面占比，缩放比例，轮播时长，是否动画轮播等等属性，通过引用attrs的方式，在布局里赋值，并且提供set方法在代码里设置。</li>
+</ul>
+<pre><code>private void initAttrs(Context context, AttributeSet attrs) {
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BannerView);
+        pageMargin = (int) a.getDimension(R.styleable.BannerView_bannerPageMargin, pageMargin);
+        pagePercent = a.getFloat(R.styleable.BannerView_bannerPagePercent, pagePercent);
+        scaleMin = a.getFloat(R.styleable.BannerView_bannerPageScale, scaleMin);
+        alphaMin = a.getFloat(R.styleable.BannerView_bannerPageAlpha, alphaMin);
+        ...
+        a.recycle();
+    }</code></pre><ul>
+<li>定义了基本属性后，将<code>ViewPager</code>视图填充到控件容器里，ViewPager布局里需要使用<code>clipChildren</code>属性来控制系统绘制View的范围，在<code>ViewPager</code>和它的父容器里都设置<code>clipChildren=false</code>。这样指定了主页面占比后，左右两边的Page就会进行绘制。</li>
+</ul>
+<pre><code>    private void initView() {
+        mRootView = LayoutInflater.from(getContext()).inflate(R.layout.banner_view, this);
+        mViewPager = (ViewPager) mRootView.findViewById(R.id.viewPager);
+        LayoutParams params = (LayoutParams) mViewPager.getLayoutParams();
+        params.width = (int) (getScreenWidth() * pagePercent);
+        params.gravity = Gravity.CENTER;
+        mViewPager.setLayoutParams(params);
+        mViewPager.setPageMargin(pageMargin);
+        mViewPager.setPageTransformer(false, new BannerPageTransformer());
+        mViewPager.setOffscreenPageLimit(5);
+        // 自动轮播任务
+        mScrollTask = new AutoScrollTask();
+        // 如果动画轮播
+        if (isAnimScroll) {
+            setAnimationScroll((int) mAnimDuration);
+        }
+    }</code></pre><hr>
+<p>第二步：滑动动画实现</p>
+<ul>
+<li><p>众所周知，谷歌已经提供了<code>ViewPager</code>的滑动动画设置接口<code>setPageTransformer()</code>，并且他自己也实现了三种基本的滑动滑动。需要自定义动画时只需实现<code>ViewPager.PageTransformer</code>接口，并实现<code>transformPage()</code>方法。</p>
+</li>
+<li><p>设计稿中的动画要求是，滑动时左侧缩小，主页随着滑动百分比缩小，右侧随着滑动百分比放大。<code>transformPage</code>方法中提供了主页所在的<code>position=0.0</code>，左侧位置百分比<code>position&lt;0</code>，右侧位置百分比<code>position&gt;0</code>，通过这个position可以动态计算出各个页面的缩放比。</p>
+</li>
+</ul>
+<pre><code>    public void transformPage(View page, float position) {
+       // 不同位置的缩放和透明度
+       float scale = (position &lt; 0)
+                ? ((1 - scaleMin) * position + 1)
+                : ((scaleMin - 1) * position + 1);
+       float alpha = (position &lt; 0)
+                ? ((1 - alphaMin) * position + 1)
+                : ((alphaMin - 1) * position + 1);
+       // 保持左右两边的图片位置中心
+       if (position &lt; 0) {
+            ViewCompat.setPivotX(page, page.getWidth());
+            ViewCompat.setPivotY(page, page.getHeight() / 2);
+        } else {
+            ViewCompat.setPivotX(page, 0);
+            ViewCompat.setPivotY(page, page.getHeight() / 2);
+        }
+        Log.d(TAG, &quot;transformPage: scale=&quot; + scale);
+        ViewCompat.setScaleX(page, scale);
+        ViewCompat.setScaleY(page, scale);
+        ViewCompat.setAlpha(page, Math.abs(alpha));
+    }</code></pre><p>第三步：无限自动轮播和轮播动画处理</p>
+<ul>
+<li>无限轮播可用线程池，定时器，<code>Handler</code>等等实现，这里采用最简单的Handler实现。首先自定义一个轮播任务，实现Runnable接口，在run方法里使用Handler发送延时消息来不停轮播，并且提供start方法和stop方法开启和停止轮播。在初始化视图完毕时，开启轮播。</li>
+</ul>
+<pre><code>   @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        // 视图初始化完毕，开始轮播任务
+        if (mScrollTask == null) mScrollTask = new AutoScrollTask();
+        if (isAutoScroll) startAutoScroll();
+    }</code></pre><ul>
+<li><code>ViewPager</code>滑动是没有延时的，谷歌也没有提供具体的接口去实现延时滑动。所以这里使用反射去重新设置<code>ViewPager</code>的滑动世间。自动轮播时，需求动画延时滑动，但是手动滑动时需要原生的滑动，所以根据使用时间差和滑动时间来控制自动和手动滑动。</li>
+</ul>
+<pre><code> public void startScroll(int startX, int startY, int dx,
+                                        int dy, int duration) {
+      // 如果手动滚动,则加速滚动
+         // TODO 使用这种设置极不稳定，需要抽离
+         if (System.currentTimeMillis() - mRecentTouchTime &gt; mScrollDuration &amp;&amp; isAnimScroll) {
+             // 动画滑动
+             duration = during;
+         } else {
+             // 手势滚动
+             duration /= 2;
+
+         }
+         super.startScroll(startX, startY, dx, dy, duration);
+     }</code></pre><hr>
+<h4 id="BannerView的基类适配器封装"><a href="#BannerView的基类适配器封装" class="headerlink" title="BannerView的基类适配器封装"></a>BannerView的基类适配器封装</h4><ul>
+<li><code>BannerView</code>封装的是<code>ViewPager</code>，所以基类适配器<code>BannerBaseAdapter</code>封装的也是<code>PagerAdapter</code>，由于适配器涉及到数据和视图，所以基类里将所有都封装好，只留数据和视图留给子类去实现。除此之外，页面的点击，按下和抬起也在适配器实现并通过接口暴露出来。</li>
+<li>实现父类适配后，只需要指定数据类型和实现展示视图转换数据的方法，加载完数据之后，通过setData方法来重新更新数据即可。</li>
+</ul>
+<pre><code>private class BannerAdapter extends BannerBaseAdapter&lt;BannerBean&gt; {
+        public BannerAdapter(Context context) {
+            super(context);
+        }
+        @Override
+        protected int getLayoutResID() {
+            return R.layout.item_banner;
+        }
+        @Override
+        protected void convert(View convertView, BannerBean data) {
+            setImage(R.id.pageImage, data.imageRes);
+            setText(R.id.pageText, data.title);
+        }
+  }</code></pre><h4 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h4><ul>
+<li>拷贝BannerView全路径到布局里，使用attrs指定属性</li>
+</ul>
+<pre><code>&lt;com.pinger.widget.banner.BannerView
+      android:id=&quot;@+id/bannerView&quot;
+      android:layout_width=&quot;match_parent&quot;
+      android:layout_height=&quot;200dp&quot;
+      app:bannerPageAlpha=&quot;1.0&quot;
+      app:bannerPageMargin=&quot;8dp&quot;
+      app:bannerPagePercent=&quot;0.8&quot;
+      app:bannerPageScale=&quot;0.8&quot;
+      app:bannerAnimScroll=&quot;true&quot;
+      app:bannerAutoScroll=&quot;true&quot;
+      app:bannerScrollDuration=&quot;4000&quot;
+      app:bannerAnimDuration=&quot;1500&quot;/&gt;</code></pre><ul>
+<li>在代码中设置适配器和设置页面的触摸监听，初始化数据之后，更新数据</li>
+</ul>
+<pre><code>  final BannerView bannerView = (BannerView) findViewById(R.id.bannerView);
+  bannerView.setAdapter(mAdapter = new BannerAdapter(this));
+  initData();  // 初始化数据
+  mAdapter.setData(mDatas);
+  mAdapter.setOnPageTouchListener(...);</code></pre><hr>
+<p><a href="https://github.com/PingerOne/android_develop_sample/blob/master/android_widget/src/main/java/com/pinger/widget/banner/BannerView.java" target="_blank" rel="noopener">Demo下载地址</a></p>
+<blockquote>
+<p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p>
+</blockquote>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">谢谢你请我喝咖啡</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://pingerx.com" class="b-link-green">万合天宜</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2016/11/07/kai-fa-ji-lu-zhi-zi-ding-yi-wu-xian-zi-dong-lun-bo-de-banner-kong-jian/" class="b-link-green">开发记录之自定义无限自动轮播的Banner控件</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '8c56aa4c5317d61f7fc7',
+        clientSecret: '332443010c24af9dadf321aa6e4e09819cffb5fa',
+        repo: 'pingerx.github.io',
+        owner: 'pingerx',
+        admin: ["pingerx"],
+        id: '2016-11-07T00-00-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2016/11/08/kai-fa-ji-lu-zhi-ti-gao-gradle-de-bian-yi-su-du-zong-jie/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="开发记录之提高Gradle的编译速度总结">
+                        
+                        <span class="card-title">开发记录之提高Gradle的编译速度总结</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
+刚进公司，由于公司准备新地方，所以电脑不够用，先用自己的电脑开发。然后配置环境，运行项目，由于项目经过多年多人之手迭代，已经残破不堪，所以第一次运行大概花了20多分钟，等得蛋都碎了一地。以为接下来会快一些，鬼知道第二次还是10多分钟，我直</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2016-11-08
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/develop/" class="post-category" target="_blank">
+                                    develop
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/开发/" target="_blank">
+                        <span class="chip bg-color">开发</span>
+                    </a>
+                    
+                    <a href="/tags/Android/" target="_blank">
+                        <span class="chip bg-color">Android</span>
+                    </a>
+                    
+                    <a href="/tags/2016/" target="_blank">
+                        <span class="chip bg-color">2016</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+            </div>
+            <div class="card">
+                <a href="/2016/11/07/kai-fa-ji-lu-zhi-zi-ding-yi-wu-xian-zi-dong-lun-bo-de-banner-kong-jian/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="开发记录之自定义无限自动轮播的Banner控件">
+                        
+                        <span class="card-title">开发记录之自定义无限自动轮播的Banner控件</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
+显示的效果请往下看，先说一下需求，可以自动轮播，按下停止轮播，松手开始轮播，不可见时停止轮播，自动轮播时带动画，手动滑动时不带动画，点击时要有水波纹效果，下拉刷新回到第一页，页面不能卡顿等等。参考了一些网上的想法，结合自己的认知，总结如下</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2016-11-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/develop/" class="post-category" target="_blank">
+                                    develop
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/开发/" target="_blank">
+                        <span class="chip bg-color">开发</span>
+                    </a>
+                    
+                    <a href="/tags/Android/" target="_blank">
+                        <span class="chip bg-color">Android</span>
+                    </a>
+                    
+                    <a href="/tags/2016/" target="_blank">
+                        <span class="chip bg-color">2016</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+    
+
+</main>
+
+
+<footer class="page-footer footer-color">
+    <div class="container row center-align">
+        <div class="s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://pingerx.github.io/" target="_blank" class="text-color">Pinger</a>基于
+            <a href="https://hexo.io/" target="_blank" class="text-color">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" class="text-color">hexo-theme-matery</a>主题搭建
+            <br>
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数
+                <span class="text-color">12.9k</span>，
+            
+
+            
+			
+                
+                
+                <span id="busuanzi_container_site_pv">
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="text-color"></span>
+                </span>
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    次，
+                      <i class="fa fa-users"></i> 访客数 <span id="busuanzi_value_site_uv" class="text-color"></span> 人
+                </span>
+                
+            
+        </div>
+        <!-- <div class="col s12 m4 l4 social-link social-statis">
+
+
+
+
+</div> -->
+    </div>
+</footer>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+
+
+</body>
+</html>
