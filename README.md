@@ -20,4 +20,5 @@
 程序猿一枚，男，93年生，位置Makati。Java，Kotlin，Flutter，Python，Go都略有接触，最近在研究机器学习和跨平台开发。性格孤僻且佛性，不易相处，请善待。
 
 ### 使用
-拉取代码到本地，安装hexo依赖，切换到hexo分支，执行`hexo g`和`hexo s`，发布使用`hexo d`。
+代码同步：拉取代码到本地，安装hexo依赖，切换到hexo分支，执行`hexo g`和`hexo s`，发布使用`hexo d`。
+相册功能：在[BlogFiles](https://github.com/pingerx/BlogFiles)仓库中，将图片按`yyyy-MM-dd_描述`格式命名上传至photos目录，执行`python tools.py`命令，将图片压缩并上传至Github，博客会自动同步相册图片。
