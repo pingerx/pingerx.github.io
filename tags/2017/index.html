@@ -58,7 +58,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/pictures" class="waves-effect waves-light">
+        <a href="/photos" class="waves-effect waves-light">
             
             <i class="fa fa-image"></i>
             
@@ -147,11 +147,11 @@
         </li>
         
         <li>
-            <a href="/pictures" class="waves-effect waves-light">
+            <a href="/photos" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-image"></i>
                 
-                相册
+                Photos
             </a>
         </li>
         
@@ -371,19 +371,19 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
                 </a>
                 
                 
-                <a href="/tags/Linux/" title="Linux: 3">
+                <a href="/tags/Git/" title="Git: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Linux" style="background-color: #F8F9F9;">Linux
+                            data-tagname="Git" style="background-color: #F8F9F9;">Git
                         <span class="tag-length">3</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Git/" title="Git: 3">
+                <a href="/tags/Linux/" title="Linux: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Git" style="background-color: #82E0AA;">Git
+                            data-tagname="Linux" style="background-color: #82E0AA;">Linux
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -398,19 +398,10 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
                 </a>
                 
                 
-                <a href="/tags/2017/" title="2017: 13">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="2017" style="background-color: #A3E4D7;">2017
-                        <span class="tag-length">13</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/2019/" title="2019: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="2019" style="background-color: #85C1E9;">2019
+                            data-tagname="2019" style="background-color: #A3E4D7;">2019
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -419,8 +410,17 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
                 <a href="/tags/叙事/" title="叙事: 5">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="叙事" style="background-color: #F8C471;">叙事
+                            data-tagname="叙事" style="background-color: #85C1E9;">叙事
                         <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/2017/" title="2017: 13">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="2017" style="background-color: #F8C471;">2017
+                        <span class="tag-length">13</span>
                     </span>
                 </a>
                 
@@ -797,7 +797,7 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
                 </div>
                 
                 
-                <div class="article tag-post col s12 m6 l4" data-tags="2017, 叙事" data-aos="fade-up">
+                <div class="article tag-post col s12 m6 l4" data-tags="叙事, 2017" data-aos="fade-up">
                     <div class="card">
                         <a href="/2017/01/27/jiu-zui-di-er-duan/">
                             <div class="card-image tag-image">
@@ -828,7 +828,7 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
                 </div>
                 
                 
-                <div class="article tag-post col s12 m6 l4" data-tags="2017, 叙事" data-aos="fade-up">
+                <div class="article tag-post col s12 m6 l4" data-tags="叙事, 2017" data-aos="fade-up">
                     <div class="card">
                         <a href="/2017/01/15/zhe-ge-dong-tian-ni-zai-na-li/">
                             <div class="card-image tag-image">
@@ -927,12 +927,88 @@ $('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
 </div>
 
 
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--程序入口，初始化JS-->
 <script src="/libs/materialize/js/materialize.min.js"></script>
 <script src="/libs/masonry/masonry.pkgd.min.js"></script>
 <script src="/libs/aos/aos.js"></script>
 <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
 <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
 <script src="/js/matery.js"></script>
+
+<!--相册-->
+<script src="/js/photoswipe.js"></script>
+<script src="/js/photoswipe-ui-default.js"></script>
+<link rel="stylesheet" href="/css/default-skin/default-skin.css">
+<link rel="stylesheet" href="/css/photoswipe.css">
+
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
