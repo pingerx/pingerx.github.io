@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之Activity的转场动画实现"
 date: 2017-06-22
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
 - 2017
 - 开发

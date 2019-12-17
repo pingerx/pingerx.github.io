@@ -3,7 +3,7 @@ layout: post
 title: "Linux下使用Genymotion-ARM架构的模拟器"
 date: 2018-04-02
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
 - 2018
 - 开发

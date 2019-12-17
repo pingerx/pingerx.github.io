@@ -3,7 +3,7 @@ layout: post
 title: "Github添加SSH公钥流程"
 date: 2018-03-25
 comments: true
-categories: "develop"
+categories: "Github"
 tags:
 - 2018
 - 开发

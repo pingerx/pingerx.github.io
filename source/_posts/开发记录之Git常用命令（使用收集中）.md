@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之Git常用命令（使用收集中）"
 date: 2017-02-01
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2017
  - 开发

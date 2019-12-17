@@ -3,7 +3,7 @@ layout: post
 title: "Android使用Jenkins持续集成"
 date: 2018-07-23
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
 - 2018
 - 开发

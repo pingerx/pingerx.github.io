@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之App启动优化"
 date: 2017-12-19
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2017
  - 开发

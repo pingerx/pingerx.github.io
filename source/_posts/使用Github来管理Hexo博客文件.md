@@ -3,7 +3,7 @@ layout: post
 title: "使用Github来管理Hexo博客文件"
 date: 2018-07-03
 comments: true
-categories: "develop"
+categories: "Hexo"
 tags:
 - 2018
 - 开发

@@ -3,7 +3,7 @@ layout: post
 title: "AndroidStudio添加ShadowSockets代理"
 date: 2018-05-12
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
 - 2018
 - 开发

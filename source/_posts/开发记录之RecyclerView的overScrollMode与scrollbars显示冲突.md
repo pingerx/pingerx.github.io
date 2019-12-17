@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之RecyclerView的overScrollMode与scrollbars显示冲突"
 date: 2017-04-28
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2017
  - 开发

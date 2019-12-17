@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之自定义无限自动轮播的Banner控件"
 date: 2016-11-07
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2016
  - 开发

@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之自定义scrollbars样式"
 date: 2017-05-20
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2017
  - 开发

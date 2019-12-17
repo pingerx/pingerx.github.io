@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之Android重力感应横竖屏"
 date: 2017-08-13
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2017
  - 开发

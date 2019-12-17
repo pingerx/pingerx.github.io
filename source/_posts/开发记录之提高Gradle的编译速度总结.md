@@ -3,7 +3,7 @@ layout: post
 title: "开发记录之提高Gradle的编译速度总结"
 date: 2016-11-08
 comments: true
-categories: "develop"
+categories: "Android"
 tags:
  - 2016
  - 开发

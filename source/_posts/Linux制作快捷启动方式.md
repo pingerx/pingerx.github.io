@@ -3,7 +3,7 @@ layout: post
 title: "Linux制作快捷启动方式"
 date: 2018-04-10
 comments: true
-categories: "develop"
+categories: "Linux"
 tags:
 - 2018
 - 开发

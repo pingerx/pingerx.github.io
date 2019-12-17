@@ -3,7 +3,7 @@ layout: post
 title: "Linux文件权限"
 date: 2018-07-03
 comments: true
-categories: "develop"
+categories: "Linux"
 tags:
 - 2018
 - 开发
