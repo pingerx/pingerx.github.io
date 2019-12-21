@@ -4,13 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Linux文件权限, 万合天宜">
-    <meta name="description" content="有一次下载一个工具，点击setup时没有反应，使用命令行打开时提示权限不够。Linux系统对文件的权限做了很详细的区分和敏感处理，因此需要单独去申请权限。常用的命令如下。
-  
-
-常用命令
-列举当前目录文件权限: ls -l
-当前目录指定文">
+    <meta name="keywords" content="标签: 特产, 万合天宜">
+    <meta name="description" content="标签: 特产 | 万合天宜">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +14,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <title>Linux文件权限 | 万合天宜</title>
+    <title>标签: 特产 | 万合天宜</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -288,415 +283,210 @@
     </nav>
 </header>
 
-
-
-
-
-<div class="bg-cover post-cover" ">
-  <div class="post-cover-after" style="background-image: url('/medias/featureimages/16.jpg')"></div>
-
+<div class="bg-cover  about-cover">
+    <div class="bg-cover-after"></div>
     <div class="container">
         <div class="row">
-            <div class="col s12 m12 l12">
+            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
-                    <div class="description center-align post-title" style="color:#FFF">
-                        Linux文件权限
+                    <div class="title center-align">
+                    
+                        一个人的朝圣
+                    
+                    </div>
+
+                    <div class="description center-align">
+                    
+                        一路向前。面对人生种种境遇，顺其自然，不再纠缠，就是最优雅的人生。
+                    
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
 
+<script>
+// Dynamically switch banner pictures every day.
+$('.bg-cover-after').css('background-image', 'url(/medias/cover.jpg');
+</script>
 
 
-
-<main class="container content">
+<main class="content">
 
     
-    <!-- 文章内容详情 -->
-<div id="artDetail">
+
+<div id="tags" class="container chip-container">
     <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/2018/" target="_blank">
-                                <span class="chip bg-color">2018</span>
-                            </a>
-                        
-                            <a href="/tags/开发/" target="_blank">
-                                <span class="chip bg-color">开发</span>
-                            </a>
-                        
-                            <a href="/tags/Linux/" target="_blank">
-                                <span class="chip bg-color">Linux</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Linux/" class="post-category" target="_blank">
-                                Linux
-                            </a>
-                        
-                    </div>
-                    
-                </div>
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fa fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
-
-            <div class="post-info">
-                <div class="post-date info-break-policy">
-                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-07-03
-                </div>
-
+            <div class="tag-chips">
                 
-                    
-                    <div class="info-break-policy">
-                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        138
-                    </div>
-                    
-
-                    
-                    <div class="info-break-policy">
-                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
-                    </div>
-                    
                 
-				
-				
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
-            </div>
-        </div>
-        <hr class="clearfix">
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <p>有一次下载一个工具，点击setup时没有反应，使用命令行打开时提示权限不够。<br>Linux系统对文件的权限做了很详细的区分和敏感处理，因此需要单独去申请权限。<br>常用的命令如下。</p>
-<a id="more"></a>  
-
-<h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><ul>
-<li>列举当前目录文件权限: <code>ls -l</code></li>
-<li>当前目录指定文件权限：<code>chmod a+x filename</code></li>
-<li>指定目录文件权限:<code>chmod 777 /home/pinger</code></li>
-<li>指定目录及该目录下的子目录和子文件的权限:<code>chmod -R 777 /home/pinger</code></li>
-</ul>
-
-            </div>
-            <hr/>
-
-            
-            <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.88rem;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff;
-        background-color: #22AB38;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff;
-        background-color: #019FE8;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close"><i class="fa fa-close"></i></a>
-            <h4 class="reward-title">谢谢你请我喝咖啡</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs">
-                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
-                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                    </ul>
-                    <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                    <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(function () {
-        $('#reward .reward-link').on('click', function () {
-            $('#rewardModal').openModal();
-        });
-
-        $('#rewardModal .close').on('click', function () {
-            $('#rewardModal').closeModal();
-        });
-    });
-</script>
-            
-
-            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-
-<div id="article-share">
-    
-    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
-    
-</div>
-
-<script src="/libs/share/js/social-share.min.js"></script>
-
-            <div class="reprint">
-                <p>
-                    <span class="reprint-tip">
-                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                <a href="/tags/生活/" title="生活: 8">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="生活" style="background-color: #F9EBEA;">生活
+                        <span class="tag-length">8</span>
                     </span>
-                    <a href="https://pingerx.com" class="b-link-green">万合天宜</a>
-                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/07/03/linux-wen-jian-quan-xian/" class="b-link-green">Linux文件权限</a>
-                </p>
+                </a>
+                
+                
+                <a href="/tags/计划/" title="计划: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="计划" style="background-color: #F5EEF8;">计划
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/2018/" title="2018: 8">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="2018" style="background-color: #D5F5E3;">2018
+                        <span class="tag-length">8</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/开发/" title="开发: 16">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="开发" style="background-color: #E8F8F5;">开发
+                        <span class="tag-length">16</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Android/" title="Android: 10">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Android" style="background-color: #FEF9E7;">Android
+                        <span class="tag-length">10</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Linux/" title="Linux: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Linux" style="background-color: #F8F9F9;">Linux
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Git/" title="Git: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Git" style="background-color: #82E0AA;">Git
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/旧事/" title="旧事: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="旧事" style="background-color: #D7BDE2;">旧事
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/2019/" title="2019: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="2019" style="background-color: #A3E4D7;">2019
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/叙事/" title="叙事: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="叙事" style="background-color: #85C1E9;">叙事
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/2017/" title="2017: 13">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="2017" style="background-color: #F8C471;">2017
+                        <span class="tag-length">13</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/2016/" title="2016: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="2016" style="background-color: #F9E79F;">2016
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/特产/" title="特产: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="特产" style="background-color: #F9EBEA;">特产
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
-
-    
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div id="gitalk-container" class="card-content"></div>
 </div>
 
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: '8c56aa4c5317d61f7fc7',
-        clientSecret: '332443010c24af9dadf321aa6e4e09819cffb5fa',
-        repo: 'pingerx.github.io',
-        owner: 'pingerx',
-        admin: ["pingerx"],
-        id: '2018-07-03T00-00-00',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
+    <div class="container">
         
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/2018/07/23/android-shi-yong-jenkins-chi-xu-ji-cheng/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Android使用Jenkins持续集成">
-                        
-                        <span class="card-title">Android使用Jenkins持续集成</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">
-平时迭代开发需要频繁的打包发布到蒲公英上，重复的操作总是令人厌烦。这里简单介绍一下，使用Jenkins自动打包发布到蒲公英上。
 
-安装Jenkins
-下载最新的版本（一个 WAR 文件）。官网下载地址
-运行 java -jar jenki</div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-23
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Android/" class="post-category" target="_blank">
-                                    Android
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
+        <article>
+            <div class="row tags-posts">
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/2018/" target="_blank">
-                        <span class="chip bg-color">2018</span>
-                    </a>
-                    
-                    <a href="/tags/开发/" target="_blank">
-                        <span class="chip bg-color">开发</span>
-                    </a>
-                    
-                    <a href="/tags/Android/" target="_blank">
-                        <span class="chip bg-color">Android</span>
-                    </a>
-                    
+                
+                <div class="article tag-post col s12 m6 l4" data-tags="生活, 特产" data-aos="fade-up">
+                    <div class="card">
+                        <a href="/2019/12/19/dong-nan-ya-te-chan-ji-lu/">
+                            <div class="card-image tag-image">
+                                
+                                <img src="https://i.loli.net/2019/12/19/y7GnN6vQB4ci8hZ.jpg" class="responsive-img" alt="东南亚国家特产">
+                                
+                                <span class="card-title">东南亚国家特产</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-19
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/生活/" class="post-category" target="_blank">
+                                    生活
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2018/07/03/shi-yong-github-lai-guan-li-hexo-bo-ke-wen-jian/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="使用Github来管理Hexo博客文件">
-                        
-                        <span class="card-title">使用Github来管理Hexo博客文件</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">Hexo在本地完成初始化和博客编辑，最终是部署在Github上的。如果你换台电脑更新博客就非常麻烦，必须要拷贝博客的代码，重新部署才能生效。有一个办法可以解决这个问题，就是在Github上开一个分之来管理代码文件。
-  
-
-
-Hexo部署在</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-03
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo/" class="post-category" target="_blank">
-                                    Hexo
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/2018/" target="_blank">
-                        <span class="chip bg-color">2018</span>
-                    </a>
-                    
-                    <a href="/tags/开发/" target="_blank">
-                        <span class="chip bg-color">开发</span>
-                    </a>
-                    
-                    <a href="/tags/Git/" target="_blank">
-                        <span class="chip bg-color">Git</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
+        </article>
     </div>
-</article>
-</div>
-
-
-    
-
 </main>
 
 
