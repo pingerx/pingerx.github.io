@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingerx.com/"/>
-  <updated>2019-12-19T06:32:58.884Z</updated>
+  <updated>2019-12-22T18:28:34.515Z</updated>
   <id>https://pingerx.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>12月日记-拂不开的迷惘</title>
+    <link href="https://pingerx.com/2019/12/23/12-yue-ri-ji-fu-bu-kai-de-mi-wang/"/>
+    <id>https://pingerx.com/2019/12/23/12-yue-ri-ji-fu-bu-kai-de-mi-wang/</id>
+    <published>2019-12-22T16:00:00.000Z</published>
+    <updated>2019-12-22T18:28:34.515Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="省会" scheme="https://pingerx.com/categories/%E7%9C%81%E4%BC%9A/"/>
+    
+    
+      <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="叙事" scheme="https://pingerx.com/tags/%E5%8F%99%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>东南亚国家特产</title>
@@ -120,9 +140,9 @@
       <category term="生活" scheme="https://pingerx.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
-    
       <category term="叙事" scheme="https://pingerx.com/tags/%E5%8F%99%E4%BA%8B/"/>
+    
+      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
     
   </entry>
   
@@ -148,9 +168,9 @@
       <category term="生活" scheme="https://pingerx.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
-    
       <category term="叙事" scheme="https://pingerx.com/tags/%E5%8F%99%E4%BA%8B/"/>
+    
+      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
     
   </entry>
   
@@ -176,9 +196,9 @@
       <category term="生活" scheme="https://pingerx.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
-    
       <category term="叙事" scheme="https://pingerx.com/tags/%E5%8F%99%E4%BA%8B/"/>
+    
+      <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
     
   </entry>
   
@@ -553,34 +573,6 @@
 &lt;h3 id=&quot;一、实现原理&quot;&gt;&lt;a href=&quot;#一、实现原理&quot; class=&quot;headerlink&quot; title=&quot;一、实现原理&quot;&gt;&lt;/a&gt;一、实现原理&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;既然是重力感应横竖屏，那就肯定要有重力感应，重力感应属于传感器的一类，所以需要用到重力感应传感器，不清楚的同学可以google一下。由于视频播放或者直播页面一直都需要重力感应，所以还需要绑定播放页面的生命周期来注册重力感应和注销重力感应。这样当注册重力感应后，就可以获取当前屏幕的朝向角度，根据这些角度来判断哪个范围需要横竖屏。&lt;/p&gt;
 &lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="https://pingerx.com/categories/Android/"/>
-    
-    
-      <category term="开发" scheme="https://pingerx.com/tags/%E5%BC%80%E5%8F%91/"/>
-    
-      <category term="Android" scheme="https://pingerx.com/tags/Android/"/>
-    
-      <category term="2017" scheme="https://pingerx.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开发记录之Activity的转场动画实现</title>
-    <link href="https://pingerx.com/2017/06/22/kai-fa-ji-lu-zhi-activity-de-zhuan-chang-dong-hua-shi-xian/"/>
-    <id>https://pingerx.com/2017/06/22/kai-fa-ji-lu-zhi-activity-de-zhuan-chang-dong-hua-shi-xian/</id>
-    <published>2017-06-21T16:00:00.000Z</published>
-    <updated>2019-12-17T10:36:42.696Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>关于Google提供的动画框架，请上传送门，<a href="http://mp.weixin.qq.com/s?__biz=MzA3MjgwNDIzNQ==&mid=2651940687&idx=1&sn=843fcc9cf508751ec2aab7fe059e9436&chksm=84fd75abb38afcbd3b814127a3401d260e8700240289a44ac6156c1daf0a93f1b4e7e0a20e49&scene=0#rd" target="_blank" rel="noopener">Android Transition Framework详解—超炫的动画框架</a></p><p>其中对于Activity的跳转有了很不错的讲解，所以具体请查看动画框架，这里只是简单的讲一下三种跳转方式的实现和应用，<br>实际开发中用的比较多的还是通过主题配置的方式，可以进行全局使用，个别独特的跳转就需要使用动画框架，不过实现了就特别炫。</p><a id="more"></a>   <h2 id="一、通过Theme进行配置（开发中最常用的方式）"><a href="#一、通过Theme进行配置（开发中最常用的方式）" class="headerlink" title="一、通过Theme进行配置（开发中最常用的方式）"></a>一、通过Theme进行配置（开发中最常用的方式）</h2><h3 id="1、写好跳转动画，采用帧动画的形式"><a href="#1、写好跳转动画，采用帧动画的形式" class="headerlink" title="1、写好跳转动画，采用帧动画的形式"></a>1、写好跳转动画，采用帧动画的形式</h3><ul><li>在anim文件夹下创建xml文件，使用set动画集来配置动画</li><li>slide_left_in.xml(Activity从左侧进入的动画)</li></ul><pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;  &lt;translate      android:duration=&quot;300&quot;      android:fromXDelta=&quot;-100.0%p&quot;      android:toXDelta=&quot;0.0&quot;/&gt;  &lt;/set&gt;</code></pre><ul><li>slide_state.xml(Activity保持不变)</li></ul><pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;  &lt;translate    android:duration=&quot;300&quot;    android:fromXDelta=&quot;0&quot;    android:toXDelta=&quot;0&quot;/&gt;  &lt;/set&gt;</code></pre><h3 id="2、配置跳转Activity的主题"><a href="#2、配置跳转Activity的主题" class="headerlink" title="2、配置跳转Activity的主题"></a>2、配置跳转Activity的主题</h3><ul><li>首先在清单文件中，找到指定的Activity，并配置其主题</li></ul><pre><code>  &lt;activity       android:name=&quot;.ui.activity.TestActivity&quot;       android:theme=&quot;@style/ActivityTheme&quot;/&gt;</code></pre><ul><li>其次在style.xml文件中进行设置</li></ul><pre><code>  &lt;!--配置单个Activity的跳转动画，可以在AppTheme里配置所有Activity的跳转--&gt;  &lt;style name=&quot;ActivityTheme&quot; parent=&quot;AppTheme&quot;&gt;      &lt;item name=&quot;android:windowAnimationStyle&quot;&gt;@style/activityAnim&lt;/item&gt;  &lt;/style&gt;  &lt;!--配置各种方式的跳转动画--&gt;  &lt;style name=&quot;activityAnim&quot;&gt;      &lt;item name=&quot;android:activityOpenEnterAnimation&quot;&gt;@anim/slide_right_in&lt;/item&gt;      &lt;item name=&quot;android:activityOpenExitAnimation&quot;&gt;@anim/slide_state&lt;/item&gt;      &lt;item name=&quot;android:activityCloseEnterAnimation&quot;&gt;@anim/slide_state&lt;/item&gt;      &lt;item name=&quot;android:activityCloseExitAnimation&quot;&gt;@anim/slide_right_out&lt;/item&gt;  &lt;/style&gt;  &lt;!--activityOpenEnterAnimation ：activity打开时进入的动画--&gt;  &lt;!--activityOpenExitAnimation  ：activity打开时退出的动画--&gt;  &lt;!--activityCloseEnterAnimation ：activity关闭时进入的动画--&gt;  &lt;!--activityCloseExitAnimation  ：activity关闭时退出的动画--&gt;</code></pre><h2 id="二、overridePendingTransition-方法进行设置"><a href="#二、overridePendingTransition-方法进行设置" class="headerlink" title="二、overridePendingTransition()方法进行设置"></a>二、overridePendingTransition()方法进行设置</h2><ul><li><p>在startActivity()和finish()之后可以调用overridePendingTransition()处理跳转动画，这个方法接收两个参数，一个是新启动的activity进入时的动画，另一个是当前activity消失时的动画。</p></li><li><p>启动</p></li></ul><pre><code>  startActivity(new Intent(this, TestActivity.class));  overridePendingTransition(R.anim.slide_right_in, R.anim.slide_state);</code></pre><ul><li>退出</li></ul><pre><code>  finish();  overridePendingTransition(R.anim.slide_right_out, R.anim.slide_state);</code></pre><h2 id="三、谷歌提供的Activity动画类ActivityOptionsCompat"><a href="#三、谷歌提供的Activity动画类ActivityOptionsCompat" class="headerlink" title="三、谷歌提供的Activity动画类ActivityOptionsCompat"></a>三、谷歌提供的Activity动画类ActivityOptionsCompat</h2><ul><li><p>ActivityOptionsCompat是supportv4中新加的一个类，可以为activity添加各种动画效果，里面的api至少要求4.0，部分要求5.0以上，谷歌为我们封装好了的一些拉伸扩散动画，共享元素动画等等。</p></li><li><p>启动</p></li></ul><pre><code>    ActivityOptionsCompat compat = ActivityOptionsCompat.makeCustomAnimation(_mActivity,R.anim.slide_right_in,R.anim.slide_state);    ActivityCompat.startActivity(_mActivity,new Intent(_mActivity,TestActivity.class),compat.toBundle());</code></pre><ul><li>退出</li></ul><pre><code>    ActivityCompat.finishAfterTransition(this);</code></pre><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>使用时一般是通过配置Theme的方式，在AppTheme里配置所有Activity的跳转动画，进行统一管理，如果需要对某个Activity进行特殊处理，可以使用overridePendingTransition或者ActivityOptionsCompat进行单独设置。</p><p>动画执行优先级：系统动画 &lt; AppTheme &lt; (overridePendingTransition\ActivityOptionsCompat)。</p><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;关于Google提供的动画框架，请上传送门，&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA3MjgwNDIzNQ==&amp;mid=2651940687&amp;idx=1&amp;sn=843fcc9cf508751ec2aab7fe059e9436&amp;chksm=84fd75abb38afcbd3b814127a3401d260e8700240289a44ac6156c1daf0a93f1b4e7e0a20e49&amp;scene=0#rd&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Transition Framework详解—超炫的动画框架&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中对于Activity的跳转有了很不错的讲解，所以具体请查看动画框架，这里只是简单的讲一下三种跳转方式的实现和应用，&lt;br&gt;实际开发中用的比较多的还是通过主题配置的方式，可以进行全局使用，个别独特的跳转就需要使用动画框架，不过实现了就特别炫。&lt;/p&gt;
     
     </summary>
     
