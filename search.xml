@@ -4,6 +4,89 @@
   
     
     <entry>
+      <title>Windows 10永久激活</title>
+      <link href="/2020/01/06/windows-yong-jiu-ji-huo/"/>
+      <url>/2020/01/06/windows-yong-jiu-ji-huo/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Windows-10永久激活"><a href="#Windows-10永久激活" class="headerlink" title="Windows 10永久激活"></a>Windows 10永久激活</h3><p>现在市面上大致有两种主流激活方法，一种是通过激活码来激活，另外一种是通过激活工具来激活。但是激活工具有个弊端就是激活时间只有180天。<br>偶然看到另一个超级简单的永久激活方法，顺带记录下来。</p><p>在命令行中依次输入：</p><ol><li><code>slmgr.vbs /upk</code>，提示“已成功卸载了产品秘钥”</li><li><code>slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX</code>，提示“成功的安装了产品秘钥”</li><li><code>slmgr /skms zh.us.to</code>，提示“密钥管理服务计算机名成功的设置为 zh.us.to”</li><li><code>slmgr /ato</code>，提示“成功的激活了产品”</li></ol><h2 id="秘钥记录"><a href="#秘钥记录" class="headerlink" title="秘钥记录"></a>秘钥记录</h2><h3 id="Windows-10系统"><a href="#Windows-10系统" class="headerlink" title="Windows 10系统"></a>Windows 10系统</h3><ul><li><p>企业版：XGVPP-NMH47-7TTHJ-W3FW7-8HV2C</p></li><li><p>教育版：YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY</p></li><li><p>专业版N：2B87N-8KFHP-DKV6R-Y2C8J-PKCKT</p></li><li><p>企业版N：WGGHN-J84D6-QYCPR-T7PJ7-X766F</p></li><li><p>教育版N：84NGF-MHBT6-FXBX8-QWJK7-DRR8H</p></li><li><p>企业版S：FWN7H-PF93Q-4GGP8-M8RF3-MDWWW</p></li><li><p>单语言版：BT79Q-G7N6G-PGBYW-4YWX6-6F4BT</p></li><li><p>Windows 10 Core Single Language:JPYNJ-XTFCR-372YJ-YJJ4Q-G83YB</p></li><li><p>Windows 10 Core 中文版 Language Edition:R3BYW-CBNWT-F3JTP-FM942-BTDXY</p></li><li><p>Windows 10 Core :KTNPV-KTRK4-3RRR8-39X6W-W44T3</p></li><li><p>Windows 10 Pro:8N67H-M3CY9-QT7C4-2TR7M-TXYCV</p></li><li><p>Windows 10 Enterprise:CKFK9-QNGF2-D34FM-99QX3-8XC4K</p></li><li><p>Windows 10 Core Single Language :JPYNH-XTFCR-372YJ-YJJ3Q-G83YB</p></li><li><p>Windows 10 Core Chinese Languange Edition:R3BYW-CBNWT-F3JTP-FM942-BTDXY</p></li></ul><h3 id="Windows-10-Pro-win10专业版激活密钥"><a href="#Windows-10-Pro-win10专业版激活密钥" class="headerlink" title="Windows 10 Pro(win10专业版激活密钥)"></a>Windows 10 Pro(win10专业版激活密钥)</h3><ul><li>TPYNC-4J6KF-4B4GP-2HD89-7XMP6</li><li>2BXNW-6CGWX-9BXPV-YJ996-GMT6T</li><li>NRTT2-86GJM-T969G-8BCBH-BDWXG</li><li>XC88X-9N9QX-CDRVP-4XV22-RVV26</li><li>TNM78-FJKXR-P26YV-GP8MB-JK8XG</li><li>TR8NX-K7KPD-YTRW3-XTHKX-KQBP6</li><li>VK7JG-NPHTM-C97JM-9MPGT-3V66T</li><li>NPPR9-FWDCX-D2C8J-H872K-2YT43</li><li>W269N-WFGWX-YVC9B-4J6C9-T83GX</li><li>NYW94-47Q7H-7X9TT-W7TXD-JTYPM</li><li>NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87</li><li>MH37W-N47XK-V7XM9-C7227-GCQG9</li></ul><h3 id="win10企业版："><a href="#win10企业版：" class="headerlink" title="win10企业版："></a>win10企业版：</h3><ul><li>Windows 10 Enterprise : NPPR9-FWDCX-D2C8J-H872K-2YT43</li><li>Windows 10 Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</li><li>Windows 10 Enterprise 2015 LTSB :WNMTR-4C88C-JK8YV-HQ7T2-76DF9</li><li>Windows 10 Enterprise 2015 LTSB N : 2F77B-TNFGY-69QQF-B8YKP-D6</li></ul><h3 id="win10预览版密钥："><a href="#win10预览版密钥：" class="headerlink" title="win10预览版密钥："></a>win10预览版密钥：</h3><ul><li>Win10企业版密钥：PBHCJ-Q2NYD-2PX34-T2TD6-233PK</li><li>Win10专业版密钥：NKJFK-GPHP7-G8C3J-P6JXR-HQRJR</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 黑科技 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2020 </tag>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux服务端常用命令</title>
+      <link href="/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/"/>
+      <url>/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/</url>
+      
+        <content type="html"><![CDATA[<h3 id="cd命令"><a href="#cd命令" class="headerlink" title="cd命令"></a>cd命令</h3><ul><li>进入目录：cd /dir</li><li>退出目录：cd ..</li></ul><h3 id="ls命令"><a href="#ls命令" class="headerlink" title="ls命令"></a>ls命令</h3><ul><li>查看当前目录文件和目录名：ls</li><li>查看当前目录文件，包含文件的属性与权限数据：ll</li></ul><h3 id="rz命令"><a href="#rz命令" class="headerlink" title="rz命令"></a>rz命令</h3><ul><li>使用rz命令，在具体的目录下命令行输入<code>sudo rz</code>命令，选择文件即可上传到该目录</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 2020 </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>菲国美食打卡</title>
+      <link href="/2019/12/28/fei-guo-mei-shi-da-qia/"/>
+      <url>/2019/12/28/fei-guo-mei-shi-da-qia/</url>
+      
+        <content type="html"><![CDATA[<h3 id="China-Blue"><a href="#China-Blue" class="headerlink" title="China Blue"></a>China Blue</h3><p>位于Passy Conrad 酒店三楼。海景餐厅。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 美食 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>12月日记-拂不开的迷惘</title>
       <link href="/2019/12/23/12-yue-ri-ji-fu-bu-kai-de-mi-wang/"/>
       <url>/2019/12/23/12-yue-ri-ji-fu-bu-kai-de-mi-wang/</url>
@@ -89,7 +172,7 @@
       <link href="/2019/12/17/shi-he-yuan-fang/"/>
       <url>/2019/12/17/shi-he-yuan-fang/</url>
       
-        <content type="html"><![CDATA[<h1 id="生活不仅有眼前的苟且，还有诗和远方。"><a href="#生活不仅有眼前的苟且，还有诗和远方。" class="headerlink" title="生活不仅有眼前的苟且，还有诗和远方。"></a>生活不仅有眼前的苟且，还有诗和远方。</h1><a id="more"></a><h3 id="2020年"><a href="#2020年" class="headerlink" title="2020年"></a>2020年</h3><ul><li>谈一对象</li><li>南昌买房</li><li>年底攒够50万</li><li>半个月至少一篇博客</li><li>英语口语练习</li><li>菲驾照，学会开车</li><li>来一次跳伞</li></ul><h3 id="2024年前"><a href="#2024年前" class="headerlink" title="2024年前"></a>2024年前</h3><ul><li>春天去日本看樱花</li><li>博士硕士双证，预计人民币30万</li></ul><h3 id="有生之前"><a href="#有生之前" class="headerlink" title="有生之前"></a>有生之前</h3><ul><li>养一只蓝猫和萨摩耶狗，期待猫狗大战</li><li>西藏自驾游</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="生活不仅有眼前的苟且，还有诗和远方。"><a href="#生活不仅有眼前的苟且，还有诗和远方。" class="headerlink" title="生活不仅有眼前的苟且，还有诗和远方。"></a>生活不仅有眼前的苟且，还有诗和远方。</h1><a id="more"></a><h3 id="2020年"><a href="#2020年" class="headerlink" title="2020年"></a>2020年</h3><ul><li>谈一对象</li><li>南昌买房</li><li>年底攒够50万</li><li>半个月至少一篇博客</li><li>英语口语练习</li><li>菲驾照，学会开车</li><li>来一次跳伞</li></ul><h3 id="2024年前"><a href="#2024年前" class="headerlink" title="2024年前"></a>2024年前</h3><ul><li>春天去日本看樱花</li><li>博士硕士双证，预计人民币30万</li></ul><h3 id="有生之前"><a href="#有生之前" class="headerlink" title="有生之前"></a>有生之前</h3><ul><li>养一只蓝猫和萨摩耶，期待猫狗大战</li><li>西藏自驾游</li><li>买一套外星人顶配电脑（玩LOL）</li><li>买一套PS4玩游戏</li></ul>]]></content>
       
       
       <categories>
