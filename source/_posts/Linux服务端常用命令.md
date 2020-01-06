@@ -4,7 +4,7 @@ title: "Linux服务端常用命令"
 date: 2020-01-05
 comments: true
 categories: "Linux"
-img: https://i.loli.net/2020/01/06/8MGu9pl7s6O1SyU.jpg
+img: https://i.loli.net/2020/01/06/ZUBCP6lxu43wKcb.png
 tags:
 - 2020
 - 开发

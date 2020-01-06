@@ -4,7 +4,7 @@ title: "Windows 10永久激活"
 date: 2020-01-06
 comments: true
 categories: "黑科技"
-img: https://i.loli.net/2020/01/06/ZUBCP6lxu43wKcb.png
+img: https://i.loli.net/2020/01/06/8MGu9pl7s6O1SyU.jpg
 tags:
 - 2020
 - Windows
