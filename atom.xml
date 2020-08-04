@@ -48,9 +48,9 @@
     <link href="https://pingerx.com/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/"/>
     <id>https://pingerx.com/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/</id>
     <published>2020-01-04T16:00:00.000Z</published>
-    <updated>2020-08-04T13:06:17.316Z</updated>
+    <updated>2020-08-04T14:38:19.998Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="cd命令"><a href="#cd命令" class="headerlink" title="cd命令"></a>cd命令</h3><ul><li>进入目录：cd /dir</li><li>退出目录：cd ..</li></ul><h3 id="ls命令"><a href="#ls命令" class="headerlink" title="ls命令"></a>ls命令</h3><ul><li>查看当前目录文件和目录名：ls</li><li>查看当前目录文件，包含文件的属性与权限数据：ll</li></ul><h3 id="rz命令"><a href="#rz命令" class="headerlink" title="rz命令"></a>rz命令</h3><ul><li>使用rz命令，在具体的目录下命令行输入<code>sudo rz</code>命令，选择文件即可上传到该目录</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="cd命令"><a href="#cd命令" class="headerlink" title="cd命令"></a>cd命令</h3><ul><li>进入目录：cd /dir</li><li>退出目录：cd ..</li></ul><h3 id="ls命令"><a href="#ls命令" class="headerlink" title="ls命令"></a>ls命令</h3><ul><li>查看当前目录文件和目录名：ls</li><li>查看当前目录文件，包含文件的属性与权限数据：ll</li></ul><h3 id="rz命令"><a href="#rz命令" class="headerlink" title="rz命令"></a>rz命令</h3><ul><li>使用rz命令，在具体的目录下命令行输入<code>sudo rz</code>命令，选择文件即可上传到该目录</li></ul><h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><ul><li>列举当前目录文件权限: <code>ls -l</code></li><li>当前目录指定文件权限：<code>chmod a+x filename</code></li><li>指定目录文件权限:<code>chmod 777 /home/pinger</code></li><li>指定目录及该目录下的子目录和子文件的权限:<code>chmod -R 777 /home/pinger</code></li></ul>]]></content>
     
     <summary type="html">
     
@@ -104,34 +104,6 @@
   </entry>
   
   <entry>
-    <title>旅游计划</title>
-    <link href="https://pingerx.com/2019/12/19/lu-you-ji-hua/"/>
-    <id>https://pingerx.com/2019/12/19/lu-you-ji-hua/</id>
-    <published>2019-12-18T16:00:00.000Z</published>
-    <updated>2020-08-04T13:16:30.194Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><ul><li><p>攻略地址：<a href="https://www.tsunagujapan.com/zh-hans/" target="_blank" rel="noopener">https://www.tsunagujapan.com/zh-hans/</a></p></li><li><p>项目：春天看樱花</p></li></ul><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><ul><li>白沙滩</li><li>薄荷岛</li><li>长滩岛</li></ul><h4 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h4><ul><li>跳伞</li><li>深潜</li><li>山地车</li><li>直升机环岛游</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;日本&quot;&gt;&lt;a href=&quot;#日本&quot; class=&quot;headerlink&quot; title=&quot;日本&quot;&gt;&lt;/a&gt;日本&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;攻略地址：&lt;a href=&quot;https://www.tsunagujapan.com/zh-hans/&quot; target=&quot;
-      
-    
-    </summary>
-    
-      <category term="计划" scheme="https://pingerx.com/categories/%E8%AE%A1%E5%88%92/"/>
-    
-    
-      <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="计划" scheme="https://pingerx.com/tags/%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
     <title>东南亚国家特产</title>
     <link href="https://pingerx.com/2019/12/19/dong-nan-ya-guo-jia-te-chan/"/>
     <id>https://pingerx.com/2019/12/19/dong-nan-ya-guo-jia-te-chan/</id>
@@ -157,6 +129,34 @@
       <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="特产" scheme="https://pingerx.com/tags/%E7%89%B9%E4%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旅游计划</title>
+    <link href="https://pingerx.com/2019/12/19/lu-you-ji-hua/"/>
+    <id>https://pingerx.com/2019/12/19/lu-you-ji-hua/</id>
+    <published>2019-12-18T16:00:00.000Z</published>
+    <updated>2020-08-04T13:16:30.194Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><ul><li><p>攻略地址：<a href="https://www.tsunagujapan.com/zh-hans/" target="_blank" rel="noopener">https://www.tsunagujapan.com/zh-hans/</a></p></li><li><p>项目：春天看樱花</p></li></ul><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><ul><li>白沙滩</li><li>薄荷岛</li><li>长滩岛</li></ul><h4 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h4><ul><li>跳伞</li><li>深潜</li><li>山地车</li><li>直升机环岛游</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;日本&quot;&gt;&lt;a href=&quot;#日本&quot; class=&quot;headerlink&quot; title=&quot;日本&quot;&gt;&lt;/a&gt;日本&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;攻略地址：&lt;a href=&quot;https://www.tsunagujapan.com/zh-hans/&quot; target=&quot;
+      
+    
+    </summary>
+    
+      <category term="计划" scheme="https://pingerx.com/categories/%E8%AE%A1%E5%88%92/"/>
+    
+    
+      <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="计划" scheme="https://pingerx.com/tags/%E8%AE%A1%E5%88%92/"/>
     
   </entry>
   
@@ -214,20 +214,20 @@
   </entry>
   
   <entry>
-    <title>如何在星巴克愉快的使用英文点餐</title>
-    <link href="https://pingerx.com/2019/03/04/ru-he-zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/"/>
-    <id>https://pingerx.com/2019/03/04/ru-he-zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/</id>
+    <title>在星巴克愉快的使用英文点餐</title>
+    <link href="https://pingerx.com/2019/03/04/zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/"/>
+    <id>https://pingerx.com/2019/03/04/zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/</id>
     <published>2019-03-03T16:00:00.000Z</published>
-    <updated>2020-08-04T13:22:10.385Z</updated>
+    <updated>2020-08-04T15:06:11.619Z</updated>
     
-    <content type="html"><![CDATA[<p>有的时候衡量一个人英语口语好不好，只需要看这个人能不能在星巴克优雅的点一杯咖啡。在星巴克来来回回也点了上百次了，从第一次不知道怎么选和说，到现在闭着眼睛都能背菜单，中间也就差个上百次～</p><p><img src="https://i.loli.net/2019/12/17/OXIbZUleY6wKGgh.jpg" alt></p><p>在说星巴克点咖啡之前，我们先来简单介绍一下星巴克。星巴克英文名叫Starbucks，发源地与总部位于美国华盛顿州西雅图，是一家全球最大的连锁咖啡店。实际上星巴克是一个自定义饮品的休闲区，只要你不扰乱秩序，你在里面看书、蹭网、聊天、休息等等都OK，至于你点没点饮料，坐多久，是没人会管的。</p><p>同时，在点餐之前，我们要先了解一下星巴克咖啡的常识。</p><ul><li><p>杯型。星巴克的杯子有三种型号，Tall为中杯，Grande为大杯，Venti为超大杯。男生一般选Grande就够了，女生一般选Tall或者Grande。当然如果你要坐下来慢慢喝，你也可以点Venti杯型，既划算，又可以喝很久。<br><img src="https://i.loli.net/2019/12/17/LlKEVZbWpn9yIXa.jpg" alt="杯型"></p></li><li><p>温度。热饮：<code>Hot Drink</code>，含冰冷饮：<code>Iced Drink</code>，去冰：<code>No Ice</code>，少冰 ：<code>Easy On Ice</code>。比如我要点一杯热牛奶，就可以说 <code>I want a cup of hot milk</code> 或者直接 <code>hot milk</code> 都是可以的。</p></li><li><p>糖浆。星巴克所有甜的饮品都是放糖浆的。一般有榛果糖浆：Hazelnut Syrup，香草糖浆：Vanilla Syrup，焦糖糖浆：Caramel Syrup。个人点香草的比较多，非常符合我的口味。</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>有的时候衡量一个人英语口语好不好，只需要看这个人能不能在星巴克优雅的点一杯咖啡。在星巴克来来回回也点了上百次了，从第一次不知道怎么选和说，到现在闭着眼睛都能背菜单，中间也就差个上百次～</p><p><img src="https://ae06.alicdn.com/kf/Uae5dcfcbb4544773b6f09540488b4293K.png" alt></p><p>在说星巴克点咖啡之前，我们先来简单介绍一下星巴克。星巴克英文名叫Starbucks，发源地与总部位于美国华盛顿州西雅图，是一家全球最大的连锁咖啡店。实际上星巴克是一个自定义饮品的休闲区，只要你不扰乱秩序，你在里面看书、蹭网、聊天、休息等等都OK，至于你点没点饮料，坐多久，是没人会管的。</p><p>同时，在点餐之前，我们要先了解一下星巴克咖啡的常识。</p><ul><li><p>杯型。星巴克的杯子有三种型号，Tall为中杯，Grande为大杯，Venti为超大杯。男生一般选Grande就够了，女生一般选Tall或者Grande。当然如果你要坐下来慢慢喝，你也可以点Venti杯型，既划算，又可以喝很久。</p></li><li><p>温度。热饮：<code>Hot Drink</code>，含冰冷饮：<code>Iced Drink</code>，去冰：<code>No Ice</code>，少冰 ：<code>Easy On Ice</code>。比如我要点一杯热牛奶，就可以说 <code>I want a cup of hot milk</code> 或者直接 <code>hot milk</code> 都是可以的。</p></li><li><p>糖浆。星巴克所有甜的饮品都是放糖浆的。一般有榛果糖浆：Hazelnut Syrup，香草糖浆：Vanilla Syrup，焦糖糖浆：Caramel Syrup。个人点香草的比较多，非常符合我的口味。</p></li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;有的时候衡量一个人英语口语好不好，只需要看这个人能不能在星巴克优雅的点一杯咖啡。在星巴克来来回回也点了上百次了，从第一次不知道怎么选和说，到现在闭着眼睛都能背菜单，中间也就差个上百次～&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/12/
+&lt;p&gt;&lt;img src=&quot;https://ae06.alicdn.com/kf/
       
     
     </summary>
@@ -246,9 +246,9 @@
     <link href="https://pingerx.com/2019/03/02/xiao-mi-8-lite-shou-ji-shua-ji-ti-yan/"/>
     <id>https://pingerx.com/2019/03/02/xiao-mi-8-lite-shou-ji-shua-ji-ti-yan/</id>
     <published>2019-03-01T16:00:00.000Z</published>
-    <updated>2020-08-04T13:25:22.048Z</updated>
+    <updated>2020-08-04T14:37:34.126Z</updated>
     
-    <content type="html"><![CDATA[<p>最近使用小米8手机，发现miui系统还是挺不错的，但是有一个很致命的缺点，就是广告太多了，而且不能安装谷歌服务。<br>miui系统除了有国内的版本，还有全球版。全球版内置了谷歌服务，并且没有广告，使用起来也是爽歪歪。</p><h4 id="所以毫不犹豫，选择刷机。"><a href="#所以毫不犹豫，选择刷机。" class="headerlink" title="所以毫不犹豫，选择刷机。"></a>所以毫不犹豫，选择刷机。</h4><p>在网上找了下刷机的教程，知乎有个专题专门提供全球版刷机解决方案，按照里面的流程刷了一次，直接成功。</p><p><a href="https://www.zhihu.com/question/50231539" target="_blank" rel="noopener">知乎专题</a></p><p>刷机分为两种，一种是将rom包放到手机里，在手机的升级界面选择rom包进行升级刷机。一种是使用线刷工具，将rom包刷进手机。两种方式都是非常的简单。</p><p><a href="http://en.miui.com/a-232.html" target="_blank" rel="noopener">刷机教程</a></p><p>写完了这段文字，手机也刚刷好~ 又可以继续愉快的玩耍了。</p><hr><p>2月6号，突然发现，之前刷的那个国际版本部分页面还是有谷歌的广告，蛋疼。<br>知乎上有个回答是使用欧盟官方分销商ABC Data认可的MIUI系统。<a href="https://xiaomi.eu/community/" target="_blank" rel="noopener">xiaomi.eu</a></p>]]></content>
+    <content type="html"><![CDATA[<p>最近使用小米8手机，发现miui系统还是挺不错的，但是有一个很致命的缺点，就是广告太多了，而且不能安装谷歌服务。<br>miui系统除了有国内的版本，还有全球版。全球版内置了谷歌服务，并且没有广告，使用起来也是爽歪歪。</p><h4 id="所以毫不犹豫，选择刷机。"><a href="#所以毫不犹豫，选择刷机。" class="headerlink" title="所以毫不犹豫，选择刷机。"></a>所以毫不犹豫，选择刷机。</h4><p>在网上找了下刷机的教程，知乎有个专题专门提供全球版刷机解决方案，按照里面的流程刷了一次，直接成功。</p><p><a href="https://www.zhihu.com/question/50231539" target="_blank" rel="noopener">知乎专题</a></p><p>刷机分为两种，一种是将rom包放到手机里，在手机的升级界面选择rom包进行升级刷机。一种是使用线刷工具，将rom包刷进手机。两种方式都是非常的简单。</p><p>写完了这段文字，手机也刚刷好~ 又可以继续愉快的玩耍了。</p><hr><p>2月6号，突然发现，之前刷的那个国际版本部分页面还是有谷歌的广告，蛋疼。<br>知乎上有个回答是使用欧盟官方分销商ABC Data认可的MIUI系统。<a href="https://xiaomi.eu/community/" target="_blank" rel="noopener">xiaomi.eu</a></p>]]></content>
     
     <summary type="html">
     
@@ -266,64 +266,6 @@
       <category term="2019" scheme="https://pingerx.com/tags/2019/"/>
     
       <category term="叙事" scheme="https://pingerx.com/tags/%E5%8F%99%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android使用Jenkins持续集成</title>
-    <link href="https://pingerx.com/2018/07/23/android-shi-yong-jenkins-chi-xu-ji-cheng/"/>
-    <id>https://pingerx.com/2018/07/23/android-shi-yong-jenkins-chi-xu-ji-cheng/</id>
-    <published>2018-07-22T16:00:00.000Z</published>
-    <updated>2019-12-17T10:35:00.133Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>平时迭代开发需要频繁的打包发布到蒲公英上，重复的操作总是令人厌烦。这里简单介绍一下，使用Jenkins自动打包发布到蒲公英上。</p></blockquote><h3 id="安装Jenkins"><a href="#安装Jenkins" class="headerlink" title="安装Jenkins"></a>安装Jenkins</h3><ul><li>下载最新的版本（一个 WAR 文件）。<a href="https://jenkins.io" target="_blank" rel="noopener">官网下载地址</a></li><li>运行 <code>java -jar jenkins.war</code> 注意：Jenkins 需要运行 Java 5以及以上的版本。</li></ul><a id="more"></a><h3 id="配置Jenkins"><a href="#配置Jenkins" class="headerlink" title="配置Jenkins"></a>配置Jenkins</h3><ul><li>第一次启动，复制命令行中的密码，打开浏览器，输入<code>localhost:8080</code>，输入密码，进入主页，创建用户。</li><li>点击 <code>系统管理-&gt;管理插件-&gt;可选插件</code>，可搜索以下插件安装(其他插件按需安装)。<ul><li>git插件(GIT plugin)</li><li>ssh插件(SSH Credentials Plugin)</li><li>Gradle插件(Gradle plugin)</li></ul></li><li>点击 <code>系统管理-&gt;系统设置-&gt;全局属性</code>，添加以下键值对，要和系统环境一样。<ul><li>ANDROID_HOME</li><li>GRADLE_HOME</li><li>JAVA_HOME</li></ul></li></ul><p><img src="http://chuantu.biz/t6/347/1532335531x-1566688556.jpg" alt="全局属性"></p><ul><li>点击 <code>系统管理-&gt;全局工具配置</code>,Git设置为自动安装，Gradle设置为GRADLE_HOME的路径（路径对上就没问题）。</li></ul><p><img src="http://chuantu.biz/t6/347/1532335501x-1566688556.jpg" alt="全局工具配置"></p><h3 id="创建任务"><a href="#创建任务" class="headerlink" title="创建任务"></a>创建任务</h3><ul><li><p>点击新建任务，选择构建一个自由风格的软件项目</p></li><li><p>源码管理，配置Git的仓库</p><ul><li>Repository URL：仓库地址</li><li>Credentials：账号密码</li><li>Branch Specifier：构建分支</li></ul></li><li><p>构建触发器</p><ul><li>定时构建：<code>H/60 * * * *</code>表示60分钟检查一次代码，有更新就构建</li></ul></li></ul><p><img src="http://chuantu.biz/t6/347/1532335446x-1566688556.jpg" alt="仓库和触发器"></p><ul><li>构建(主要配置Use Gradle Wrapper)<ul><li>Make gradlew executable，打钩</li><li>Tasks：<code>build</code>或者是具体的任务<code>:app:assembleRelease</code></li><li>Root Build script：<code>${workspace}</code></li><li>Build File：<code>${workspace}/a8sport/build.gradle</code></li></ul></li></ul><p><img src="http://chuantu.biz/t6/347/1532335583x-1566688556.jpg" alt="构建"></p><h3 id="构建任务"><a href="#构建任务" class="headerlink" title="构建任务"></a>构建任务</h3><ul><li>点击立即构建，就可以主动构建任务，第一次会从Git服务器拉取代码，可能会有一些问题会构建失败，前几次失败了再构建就好，如果一直失败可能就是配置有问题，看一下控制台输出。</li><li>构建输出目录，点击<code>系统管理-&gt;系统设置</code>可以查看Jenkins的根目录，在根目录下的workspace下有构建的任务，如<code>app/build/outputs/apk/beta/release</code></li></ul><h3 id="发布到蒲公英"><a href="#发布到蒲公英" class="headerlink" title="发布到蒲公英"></a>发布到蒲公英</h3><ul><li>安装插件<code>Upload to pgyer</code></li><li>配置任务，在构建后操作中，选择<code>upload to pgyer with apiV2</code>，配置相关参数即可</li></ul><p><img src="http://chuantu.biz/t6/347/1532335554x-1566688556.jpg" alt="上传蒲公英"></p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.pgyer.com/doc/view/jenkins" target="_blank" rel="noopener">蒲公英文档</a></li><li><a href="https://blog.csdn.net/u011541946/article/details/78267097" target="_blank" rel="noopener">Android基于Gradle参数化打不同环境安装包</a></li></ul><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;平时迭代开发需要频繁的打包发布到蒲公英上，重复的操作总是令人厌烦。这里简单介绍一下，使用Jenkins自动打包发布到蒲公英上。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;安装Jenkins&quot;&gt;&lt;a href=&quot;#安装Jenkins&quot; class=&quot;headerlink&quot; title=&quot;安装Jenkins&quot;&gt;&lt;/a&gt;安装Jenkins&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;下载最新的版本（一个 WAR 文件）。&lt;a href=&quot;https://jenkins.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网下载地址&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;运行 &lt;code&gt;java -jar jenkins.war&lt;/code&gt; 注意：Jenkins 需要运行 Java 5以及以上的版本。&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="https://pingerx.com/categories/Android/"/>
-    
-    
-      <category term="2018" scheme="https://pingerx.com/tags/2018/"/>
-    
-      <category term="开发" scheme="https://pingerx.com/tags/%E5%BC%80%E5%8F%91/"/>
-    
-      <category term="Android" scheme="https://pingerx.com/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux文件权限</title>
-    <link href="https://pingerx.com/2018/07/03/linux-wen-jian-quan-xian/"/>
-    <id>https://pingerx.com/2018/07/03/linux-wen-jian-quan-xian/</id>
-    <published>2018-07-02T16:00:00.000Z</published>
-    <updated>2019-12-17T10:35:57.668Z</updated>
-    
-    <content type="html"><![CDATA[<p>有一次下载一个工具，点击setup时没有反应，使用命令行打开时提示权限不够。<br>Linux系统对文件的权限做了很详细的区分和敏感处理，因此需要单独去申请权限。<br>常用的命令如下。</p><a id="more"></a>  <h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><ul><li>列举当前目录文件权限: <code>ls -l</code></li><li>当前目录指定文件权限：<code>chmod a+x filename</code></li><li>指定目录文件权限:<code>chmod 777 /home/pinger</code></li><li>指定目录及该目录下的子目录和子文件的权限:<code>chmod -R 777 /home/pinger</code></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有一次下载一个工具，点击setup时没有反应，使用命令行打开时提示权限不够。&lt;br&gt;Linux系统对文件的权限做了很详细的区分和敏感处理，因此需要单独去申请权限。&lt;br&gt;常用的命令如下。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://pingerx.com/categories/Linux/"/>
-    
-    
-      <category term="2018" scheme="https://pingerx.com/tags/2018/"/>
-    
-      <category term="开发" scheme="https://pingerx.com/tags/%E5%BC%80%E5%8F%91/"/>
-    
-      <category term="Linux" scheme="https://pingerx.com/tags/Linux/"/>
     
   </entry>
   
@@ -511,13 +453,13 @@
   </entry>
   
   <entry>
-    <title>开发记录之App启动优化</title>
-    <link href="https://pingerx.com/2017/12/19/kai-fa-ji-lu-zhi-app-qi-dong-you-hua/"/>
-    <id>https://pingerx.com/2017/12/19/kai-fa-ji-lu-zhi-app-qi-dong-you-hua/</id>
+    <title>Android之App启动优化</title>
+    <link href="https://pingerx.com/2017/12/19/android-zhi-app-qi-dong-you-hua/"/>
+    <id>https://pingerx.com/2017/12/19/android-zhi-app-qi-dong-you-hua/</id>
     <published>2017-12-18T16:00:00.000Z</published>
-    <updated>2019-12-17T10:36:42.701Z</updated>
+    <updated>2020-08-04T15:12:26.593Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>项目重构App的启动，之前的处理是使用SplashActivity作为过渡页，然后将Application中的第三方SDK放到IntentService中加载，<br>启动过程中的一些耗时操作也都去掉了，奈何MainActivity中的业务逻辑还是太过复杂，启动仍然比较漫长。<br>研究了一下<code>淘宝</code>项目的启动处理，总结出一种非常优化的App启动方案。</p><h3 id="传统的启动处理"><a href="#传统的启动处理" class="headerlink" title="传统的启动处理"></a><code>传统的启动处理</code></h3><p>市面上大部分的App启动处理如出一辙，基本都是先进入SplashActivity，然后Handler延时后跳转到MainActivity。</p><a id="more"></a>   <p>这样做的好处是SplashActivity作为过渡页更加轻量，启动到显示界面的时间更短，给用户较好的体验，而且SplashActivity中也可以提前做一些数据处理，减轻MainActivity的压力。但是加入SplashActivity过渡页也有一些缺点，比如要多绘制一个页面，要使用Intent传递数据，不能减轻MainActivity页面的绘制压力和一些数据加载。<br><img src="http://oibrygxgr.bkt.clouddn.com/app_lun1.png" alt="Alt text"></p><p>除此之外，Application的处理也是一个很重要的点，因为App启动是先走Application的onCreate方法的，如果onCreate中加载SDK的时间过于漫长，就会导致App启动后显示一段时间白屏页才会进入SplashActivity，当然也可以使用windowBackGround属性避免白屏，但是时间长了总是会影响用户体验的。所以Application中一般都是采用IntentService来加载SDK的。</p><p>为了解决App启动慢和SplashActivity过渡启动的缺点，个人去研究了一下淘宝的启动，发现第一次启动耗时大概3秒，然后退出去，再进入时就不会显示Splash，直接进入主页读取缓存显示页面。我猜测淘宝的启动肯定是根据应用的进程是否存活，如果存活就直接进入MainActivity，否则显示Splash，而且淘宝的Splash加载很快，MainActivity的加载也很快，所以淘宝应该是采用了Splash绑定在Mainactivity上的方式，即<code>SplashFragment+StubView</code>的方式启动App。</p><h3 id="优化后的Splash"><a href="#优化后的Splash" class="headerlink" title="优化后的Splash"></a><code>优化后的Splash</code></h3><p>传统的App启动方式不足以满足现在用户的体验，用户需要的是加载更快，性能更优的体验，所以这里采用SplashFragment+StubView的方式去实现App的快速启动。<br><img src="http://oibrygxgr.bkt.clouddn.com/app_lun2.png" alt="Alt text"></p><p>跟传统启动方式最大的不同是，优化后的启动会直接进入MainActivity，然后在MainActivity控制Splash的显示隐藏，这样在填充Splash的时候还以为直接加载MainActivity的数据，当窗体填充完毕之后，就可以绘制MainActivity的布局，然后移除Splash，展示页面，这种方式很好的体现了异步的操作，使得填充和加载分离，启动的速度更快。</p><p>既然知道了这种实现方式，那具体代码是如何编写的呢，接下来看一下如何实现。</p><h4 id="1-填充SplashFragment"><a href="#1-填充SplashFragment" class="headerlink" title="1. 填充SplashFragment"></a>1. 填充SplashFragment</h4><p>在MainActivity的onCreate方法中，首先，需要做的就是填充Splash并显示，显示的内容就可以在SplashFragment中编辑。</p><pre><code>    log.d(TAG, &quot;==========填充SplashFragment==========&quot;);    // 1.初始化SplashFragment，填充Splash    final SplashFragment splashFragment = new SplashFragment();    getFragmentManager().beginTransaction().replace(R.id.container,splashFragment).commitAllowingStateLoss();</code></pre><h4 id="2-窗体部署完毕，填充主页布局"><a href="#2-窗体部署完毕，填充主页布局" class="headerlink" title="2. 窗体部署完毕，填充主页布局"></a>2. 窗体部署完毕，填充主页布局</h4><p>当整个页面最底层DecorView填充完毕之后，就可以开始去填充MainActivity的布局了，并且使用Handler发送延时消息，2秒后移除Splash。当然移除Splash也可以直接在数据加载完毕显示页面之前移除掉。</p><pre><code>    getWindow().getDecorView().post(new Runnable() {        @Override        public void run() {            // 填充布局            viewStub.inflate();            // 初始化布局            initView();            // 2秒后移除Splash            mHandler.postDelayed(new DelayRunnable(MainActivity.this, splashFragment), 2000);        }    });</code></pre><h3 id="3-加载MainActivity数据"><a href="#3-加载MainActivity数据" class="headerlink" title="3. 加载MainActivity数据"></a>3. 加载MainActivity数据</h3><p>其实加载数据会在第二步之前执行，因为第二步是异步操作，并且加载数据是耗时操作，所以需要更早执行，不要放在第二步里去执行，这里在测试的时候有可能数据先加载完毕，布局才绘制完，调用控件就会有空指针问题，但是实际开发中肯定不会出现这种情况的，MainActivity中的数据加载肯定很耗时。</p><h3 id="Application的优化"><a href="#Application的优化" class="headerlink" title="Application的优化"></a><code>Application的优化</code></h3><p>Application是应用的核心枢纽，应用启动时会先走Application的onCreate方法去初始化一些全局数据，比如SDK等等。但是当全局数据很多时，App的启动就会变得缓慢，因为初始化是同步加载的，所以要想加快启动，就需要将延时操作放到后台去处理。</p><p>Android里有一个Service，正好可以做延时处理的操作，这个Service就是IntentService。关于IntentService，不了解的看这里。<br><a href="http://www.jianshu.com/p/332b6daf91f0" target="_blank" rel="noopener">IntentService 示例与详解</a><br><a href="https://developer.android.com/reference/android/app/IntentService.html" target="_blank" rel="noopener">IntentService文档</a></p><p>接下来，看一下如何实现。</p><ul><li><p>自定义InitializeService继承IntentService，实现构造和方法onHandleIntent</p></li><li><p>在Application的onCreate方法中启动初始化服务</p></li></ul><pre><code>     // 启动服务去做耗时操作     InitializeService.start(this);     public static void start(Context context) {           Intent intent = new Intent(context, InitializeService.class);            intent.setAction(ACTION_APP_LAUNCHER);            context.startService(intent);     }</code></pre><ul><li>在onHandleIntent方法中判断Intent，然后去初始化SDK</li></ul><pre><code>     @Override      protected void onHandleIntent(@Nullable Intent intent) {          if (intent != null) {                final String action = intent.getAction();                if (ACTION_APP_LAUNCHER.equals(action)) {                    performInit();                }          }      }        /**         * 启动初始化耗时操作         */        private void performInit() {            // 模拟延时加载            SystemClock.sleep(2000);            Log.d(TAG, &quot;==========初始化第三方SDK结束==========&quot;);         }</code></pre><p><code>注意：</code></p><ul><li>在清单文件中配置Application和Service</li><li>并不是所有的SDK都能放到Service中去初始化的，在MainActivity中用到的还是需要提前初始化</li></ul><p><a href="https://github.com/PingerOne/android_develop_sample.git" target="_blank" rel="noopener">Demo下载地址</a></p><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<hr><p>项目重构App的启动，之前的处理是使用SplashActivity作为过渡页，然后将Application中的第三方SDK放到IntentService中加载，<br>启动过程中的一些耗时操作也都去掉了，奈何MainActivity中的业务逻辑还是太过复杂，启动仍然比较漫长。<br>研究了一下<code>淘宝</code>项目的启动处理，总结出一种非常优化的App启动方案。</p><h3 id="传统的启动处理"><a href="#传统的启动处理" class="headerlink" title="传统的启动处理"></a><code>传统的启动处理</code></h3><p>市面上大部分的App启动处理如出一辙，基本都是先进入SplashActivity，然后Handler延时后跳转到MainActivity。</p><a id="more"></a>   <p>这样做的好处是SplashActivity作为过渡页更加轻量，启动到显示界面的时间更短，给用户较好的体验，而且SplashActivity中也可以提前做一些数据处理，减轻MainActivity的压力。但是加入SplashActivity过渡页也有一些缺点，比如要多绘制一个页面，要使用Intent传递数据，不能减轻MainActivity页面的绘制压力和一些数据加载。</p><p>除此之外，Application的处理也是一个很重要的点，因为App启动是先走Application的onCreate方法的，如果onCreate中加载SDK的时间过于漫长，就会导致App启动后显示一段时间白屏页才会进入SplashActivity，当然也可以使用windowBackGround属性避免白屏，但是时间长了总是会影响用户体验的。所以Application中一般都是采用IntentService来加载SDK的。</p><p>为了解决App启动慢和SplashActivity过渡启动的缺点，个人去研究了一下淘宝的启动，发现第一次启动耗时大概3秒，然后退出去，再进入时就不会显示Splash，直接进入主页读取缓存显示页面。我猜测淘宝的启动肯定是根据应用的进程是否存活，如果存活就直接进入MainActivity，否则显示Splash，而且淘宝的Splash加载很快，MainActivity的加载也很快，所以淘宝应该是采用了Splash绑定在Mainactivity上的方式，即<code>SplashFragment+StubView</code>的方式启动App。</p><h3 id="优化后的Splash"><a href="#优化后的Splash" class="headerlink" title="优化后的Splash"></a><code>优化后的Splash</code></h3><p>传统的App启动方式不足以满足现在用户的体验，用户需要的是加载更快，性能更优的体验，所以这里采用SplashFragment+StubView的方式去实现App的快速启动。</p><p>跟传统启动方式最大的不同是，优化后的启动会直接进入MainActivity，然后在MainActivity控制Splash的显示隐藏，这样在填充Splash的时候还以为直接加载MainActivity的数据，当窗体填充完毕之后，就可以绘制MainActivity的布局，然后移除Splash，展示页面，这种方式很好的体现了异步的操作，使得填充和加载分离，启动的速度更快。</p><p>既然知道了这种实现方式，那具体代码是如何编写的呢，接下来看一下如何实现。</p><h4 id="1-填充SplashFragment"><a href="#1-填充SplashFragment" class="headerlink" title="1. 填充SplashFragment"></a>1. 填充SplashFragment</h4><p>在MainActivity的onCreate方法中，首先，需要做的就是填充Splash并显示，显示的内容就可以在SplashFragment中编辑。</p><pre><code>    log.d(TAG, &quot;==========填充SplashFragment==========&quot;);    // 1.初始化SplashFragment，填充Splash    final SplashFragment splashFragment = new SplashFragment();    getFragmentManager().beginTransaction().replace(R.id.container,splashFragment).commitAllowingStateLoss();</code></pre><h4 id="2-窗体部署完毕，填充主页布局"><a href="#2-窗体部署完毕，填充主页布局" class="headerlink" title="2. 窗体部署完毕，填充主页布局"></a>2. 窗体部署完毕，填充主页布局</h4><p>当整个页面最底层DecorView填充完毕之后，就可以开始去填充MainActivity的布局了，并且使用Handler发送延时消息，2秒后移除Splash。当然移除Splash也可以直接在数据加载完毕显示页面之前移除掉。</p><pre><code>    getWindow().getDecorView().post(new Runnable() {        @Override        public void run() {            // 填充布局            viewStub.inflate();            // 初始化布局            initView();            // 2秒后移除Splash            mHandler.postDelayed(new DelayRunnable(MainActivity.this, splashFragment), 2000);        }    });</code></pre><h3 id="3-加载MainActivity数据"><a href="#3-加载MainActivity数据" class="headerlink" title="3. 加载MainActivity数据"></a>3. 加载MainActivity数据</h3><p>其实加载数据会在第二步之前执行，因为第二步是异步操作，并且加载数据是耗时操作，所以需要更早执行，不要放在第二步里去执行，这里在测试的时候有可能数据先加载完毕，布局才绘制完，调用控件就会有空指针问题，但是实际开发中肯定不会出现这种情况的，MainActivity中的数据加载肯定很耗时。</p><h3 id="Application的优化"><a href="#Application的优化" class="headerlink" title="Application的优化"></a><code>Application的优化</code></h3><p>Application是应用的核心枢纽，应用启动时会先走Application的onCreate方法去初始化一些全局数据，比如SDK等等。但是当全局数据很多时，App的启动就会变得缓慢，因为初始化是同步加载的，所以要想加快启动，就需要将延时操作放到后台去处理。</p><p>Android里有一个Service，正好可以做延时处理的操作，这个Service就是IntentService。关于IntentService，不了解的看这里。<br><a href="http://www.jianshu.com/p/332b6daf91f0" target="_blank" rel="noopener">IntentService 示例与详解</a><br><a href="https://developer.android.com/reference/android/app/IntentService.html" target="_blank" rel="noopener">IntentService文档</a></p><p>接下来，看一下如何实现。</p><ul><li><p>自定义InitializeService继承IntentService，实现构造和方法onHandleIntent</p></li><li><p>在Application的onCreate方法中启动初始化服务</p></li></ul><pre><code>     // 启动服务去做耗时操作     InitializeService.start(this);     public static void start(Context context) {           Intent intent = new Intent(context, InitializeService.class);            intent.setAction(ACTION_APP_LAUNCHER);            context.startService(intent);     }</code></pre><ul><li>在onHandleIntent方法中判断Intent，然后去初始化SDK</li></ul><pre><code>     @Override      protected void onHandleIntent(@Nullable Intent intent) {          if (intent != null) {                final String action = intent.getAction();                if (ACTION_APP_LAUNCHER.equals(action)) {                    performInit();                }          }      }        /**         * 启动初始化耗时操作         */        private void performInit() {            // 模拟延时加载            SystemClock.sleep(2000);            Log.d(TAG, &quot;==========初始化第三方SDK结束==========&quot;);         }</code></pre><p><code>注意：</code></p><ul><li>在清单文件中配置Application和Service</li><li>并不是所有的SDK都能放到Service中去初始化的，在MainActivity中用到的还是需要提前初始化</li></ul><p><a href="https://github.com/PingerOne/android_develop_sample.git" target="_blank" rel="noopener">Demo下载地址</a></p><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
     
     <summary type="html">
     
@@ -591,6 +533,64 @@
       <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="旧事" scheme="https://pingerx.com/tags/%E6%97%A7%E4%BA%8B/"/>
+    
+      <category term="2017" scheme="https://pingerx.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android之沉浸式状态栏最简单实现</title>
+    <link href="https://pingerx.com/2017/08/17/android-zhi-chen-jin-shi-zhuang-tai-lan-zui-jian-dan-shi-xian/"/>
+    <id>https://pingerx.com/2017/08/17/android-zhi-chen-jin-shi-zhuang-tai-lan-zui-jian-dan-shi-xian/</id>
+    <published>2017-08-16T16:00:00.000Z</published>
+    <updated>2020-08-04T15:12:17.952Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>网上有很多对于沉浸式状态栏的讲解，也有很多实现沉浸式状态栏的方法。<br>具体的原理可以参考几篇分析的比较不错的文章：<br><a href="http://www.jianshu.com/p/f3683e27fd94" target="_blank" rel="noopener">Android沉浸式UI实现及原理</a><br><a href="http://www.jianshu.com/p/34a8b40b9308" target="_blank" rel="noopener">Android 系统状态栏沉浸式/透明化完整解决方案</a></p><p>这里将两种实现起来比较简单的方式贴出来，可以直接拿去使用。</p><a id="more"></a>  <h3 id="通过代码进行设置"><a href="#通过代码进行设置" class="headerlink" title="通过代码进行设置"></a>通过代码进行设置</h3><ul><li>在想要实现透明状态栏的Activity里，或者BaseActivity里的setContentView()方法后调用如下代码</li></ul><!-- more -->  <pre><code>  // 设置状态栏，仅支持到4.4以上版本的Android系统，即API19  public static void initStatus(Activity activity) {      if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT) {          activity.getWindow().setFlags(                  WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,                  WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);      }  }</code></pre><ul><li>以上代码会把整个状态栏去掉，所以需要在布局文件里的ToolBar设置paddingTop的属性，statusBarSize=25dp</li></ul><pre><code>  android:paddingTop=&quot;@dimen/statusBarSize&quot;</code></pre><ul><li>由于透明状态栏是Google在Android 4.4之后才支持的，所以需要根据不同的版本设置statusBarSize的大小，新建values-v19文件夹，将dimen文件的statusBarSize改成0p就好了</li></ul><h3 id="通过配置主题进行设置"><a href="#通过配置主题进行设置" class="headerlink" title="通过配置主题进行设置"></a>通过配置主题进行设置</h3><ul><li>在values文件中设置AppTheme</li></ul><pre><code>  &lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;     &lt;!-- Customize your theme here. --&gt;     &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;     &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;     &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;     &lt;item name=&quot;android:windowIsTranslucent&quot;&gt;true&lt;/item&gt;  &lt;/style&gt;</code></pre><ul><li>在res下新建一个values-v19文件夹，然后新建values.xml文件，设置AppTheme，这是兼容到4.4版本的写法</li></ul><pre><code>  &lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;      &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;      &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;      &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;      &lt;item name=&quot;android:windowIsTranslucent&quot;&gt;true&lt;/item&gt;      &lt;item name=&quot;android:windowTranslucentStatus&quot;&gt;true&lt;/item&gt;      &lt;item name=&quot;android:windowTranslucentNavigation&quot;&gt;true&lt;/item&gt;  &lt;/style&gt;</code></pre><ul><li>在res下新建一个values-v21文件夹，然后新建values.xml文件，设置AppTheme，兼容5.0的写法</li></ul><pre><code>&lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;     &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;     &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;     &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;     &lt;item name=&quot;android:windowIsTranslucent&quot;&gt;true&lt;/item&gt;     &lt;item name=&quot;android:windowTranslucentStatus&quot;&gt;false&lt;/item&gt;     &lt;item name=&quot;android:windowTranslucentNavigation&quot;&gt;true&lt;/item&gt;     &lt;!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色--&gt;     &lt;item name=&quot;android:statusBarColor&quot;&gt;@android:color/transparent&lt;/item&gt; &lt;/style&gt;</code></pre><ul><li>同理，以上代码也会把整个状态栏去掉，所以还需要在布局文件里的根容器下设置如下代码，然后在values-v19文件夹中将dimen文件的statusBarSize改成0p就好了</li></ul><pre><code>   android:paddingTop=&quot;@dimen/statusBarSize&quot;</code></pre><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;网上有很多对于沉浸式状态栏的讲解，也有很多实现沉浸式状态栏的方法。&lt;br&gt;具体的原理可以参考几篇分析的比较不错的文章：&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/p/f3683e27fd94&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android沉浸式UI实现及原理&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/p/34a8b40b9308&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android 系统状态栏沉浸式/透明化完整解决方案&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这里将两种实现起来比较简单的方式贴出来，可以直接拿去使用。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="https://pingerx.com/categories/Android/"/>
+    
+    
+      <category term="开发" scheme="https://pingerx.com/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Android" scheme="https://pingerx.com/tags/Android/"/>
+    
+      <category term="2017" scheme="https://pingerx.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android之Android重力感应横竖屏</title>
+    <link href="https://pingerx.com/2017/08/13/android-zhi-android-chong-li-gan-ying-heng-shu-ping/"/>
+    <id>https://pingerx.com/2017/08/13/android-zhi-android-chong-li-gan-ying-heng-shu-ping/</id>
+    <published>2017-08-12T16:00:00.000Z</published>
+    <updated>2020-08-04T15:12:29.344Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>开发时遇到播放视频要用重力感应来横竖屏，并且要有按钮点击横竖屏，查了很多资料，并参考了网上一些实现思路，终于把重力感应横竖屏完整实现，现封装成工具类，可以直接使用。</p><h3 id="一、实现原理"><a href="#一、实现原理" class="headerlink" title="一、实现原理"></a>一、实现原理</h3><blockquote><p>既然是重力感应横竖屏，那就肯定要有重力感应，重力感应属于传感器的一类，所以需要用到重力感应传感器，不清楚的同学可以google一下。由于视频播放或者直播页面一直都需要重力感应，所以还需要绑定播放页面的生命周期来注册重力感应和注销重力感应。这样当注册重力感应后，就可以获取当前屏幕的朝向角度，根据这些角度来判断哪个范围需要横竖屏。</p></blockquote><a id="more"></a>   <h3 id="二、实现逻辑"><a href="#二、实现逻辑" class="headerlink" title="二、实现逻辑"></a>二、实现逻辑</h3><h4 id="2-1-打造工具类ScreenRotateUtil"><a href="#2-1-打造工具类ScreenRotateUtil" class="headerlink" title="2.1 打造工具类ScreenRotateUtil"></a>2.1 打造工具类ScreenRotateUtil</h4><ul><li><p>由于要绑定生命周期，并且可以点击横竖屏，所以可以做一个工具类，提供start()和stop方法来绑定生命周期，并且暴露一个点击切换横竖屏的方法toggleRotate()就可以。</p></li><li><p>start方法注册监听</p></li></ul><pre><code>    public void start(Activity activity) {        // 接收activity，用于操作屏幕的旋转        mActivity = activity;        // 注册传感器监听        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);    }</code></pre><ul><li>stop()方法注销监听</li></ul><pre><code>    public void stop() {        // 注销监听        sm.unregisterListener(listener);        // 防止内存泄漏        mActivity = null;    }</code></pre><ul><li>toggleRotate()方法，自动切换横竖屏</li></ul><pre><code>    public void toggleRotate() {        /**         * 先判断是否已经开启了重力感应，没开启就直接普通的切换横竖屏         */        if(isEffetSysSetting){            try {                int isRotate = Settings.System.getInt(mActivity.getContentResolver(), Settings.System.ACCELEROMETER_ROTATION);                // 如果用户禁用掉了重力感应就直接切换                if (isRotate == 0) {                    changeOrientation(isLandscape, true);                    return;                }            } catch (Settings.SettingNotFoundException e) {                e.printStackTrace();            }        }        /**         * 如果开启了重力感应就需要修改状态         */        isOpenSensor = false;        isClickFullScreen = true;        if (isChangeOrientation) {            changeOrientation(isLandscape, false);        } else {            isLandscape = !isLandscape;            changeOrientation(isLandscape, false);        }    }</code></pre><h4 id="2-2-重力感应传感器"><a href="#2-2-重力感应传感器" class="headerlink" title="2.2 重力感应传感器"></a>2.2 重力感应传感器</h4><blockquote><p>Android提供了多种传感器，这里只是简单介绍一下重力感应传感器，想了解更多请<a href="http://blog.csdn.net/mad1989/article/details/20848181" target="_blank" rel="noopener">传送</a>。</p></blockquote><ul><li>初始化传感器</li></ul><pre><code>    // 这里在构造里初始化重力重力感应    private ScreenRotateUtil(Context context) {        // 获取传感器管理器        sm = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);        // 获取传感器类型        sensor = sm.getDefaultSensor(Sensor.TYPE_GRAVITY);        // 初始化监听器        listener = new OrientationSensorListener(mHandler);    }</code></pre><ul><li><p>start()方法注册监听，stop()方法注销监听</p></li><li><p>看一下监听里非常重要的方法onSensorChanged，当注册了监听后，这个方法会不停的回调用，不停的给Handler发送消息，然后就可以在Handler里修改屏幕的朝向</p></li></ul><pre><code>    public void onSensorChanged(SensorEvent event) {        float[] values = event.values;        int orientation = ORIENTATION_UNKNOWN;        float X = -values[_DATA_X];        float Y = -values[_DATA_Y];        float Z = -values[_DATA_Z];        float magnitude = X * X + Y * Y;        // Don&#39;t trust the angle if the magnitude is small compared to the y        // value        if (magnitude * 4 &gt;= Z * Z) {            // 屏幕旋转时            float OneEightyOverPi = 57.29577957855f;            float angle = (float) Math.atan2(-Y, X) * OneEightyOverPi;            orientation = 90 - Math.round(angle);            // normalize to 0 - 359 range            while (orientation &gt;= 360) {                orientation -= 360;            }            while (orientation &lt; 0) {                orientation += 360;            }        }        /**         * 获取手机系统的重力感应开关设置，这段代码看需求，不要就删除         * screenchange = 1 表示开启，screenchange = 0 表示禁用         * 要是禁用了就直接返回         */        if(isEffetSysSetting){            try {                int isRotate = Settings.System.getInt(mActivity.getContentResolver(), Settings.System.ACCELEROMETER_ROTATION);                // 如果用户禁用掉了重力感应就直接return                if (isRotate == 0) return;            } catch (Settings.SettingNotFoundException e) {                e.printStackTrace();            }        }        // 只有点了按钮时才需要根据当前的状态来更新状态        if (isClickFullScreen) {            if (isLandscape &amp;&amp; screenIsPortrait(orientation)) {           // 之前是横屏，并且当前是竖屏的状态                Log.d(TAG, &quot;onSensorChanged: 横屏 ----&gt; 竖屏&quot;);                updateState(false, false, true, true);            } else if (!isLandscape &amp;&amp; screenIsLandscape(orientation)) {  // 之前是竖屏，并且当前是横屏的状态                Log.d(TAG, &quot;onSensorChanged: 竖屏 ----&gt; 横屏&quot;);                updateState(true, false, true, true);            } else if (isLandscape &amp;&amp; screenIsLandscape(orientation)) {    // 之前是横屏，现在还是横屏的状态                Log.d(TAG, &quot;onSensorChanged: 横屏 ----&gt; 横屏&quot;);                isChangeOrientation = false;            } else if (!isLandscape &amp;&amp; screenIsPortrait(orientation)) {  // 之前是竖屏，现在还是竖屏的状态                Log.d(TAG, &quot;onSensorChanged: 竖屏 ----&gt; 竖屏&quot;);                isChangeOrientation = false;            }        }        // 判断是否要进行中断信息传递        if (!isOpenSensor) {            return;        }        if (rotateHandler != null) {            rotateHandler.obtainMessage(888, orientation, 0).sendToTarget();        }    }</code></pre><h3 id="2-3-横竖屏处理"><a href="#2-3-横竖屏处理" class="headerlink" title="2.3 横竖屏处理"></a>2.3 横竖屏处理</h3><ul><li>这里的横竖屏是去根据当前手机的朝向即orientation的角度进行判断，然后调用mActivity.setRequestedOrientation()方法设置横竖屏，这里进行了360°的判断，实现了四个方向的横竖屏。</li></ul><pre><code>     if (msg.what == 888) {        int orientation = msg.arg1;        /**         * 根据手机屏幕的朝向角度，来设置内容的横竖屏，并且记录状态         */        if (orientation &gt; 45 &amp;&amp; orientation &lt; 135) {            mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE);            isLandscape = true;        } else if (orientation &gt; 135 &amp;&amp; orientation &lt; 225) {            mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT);            isLandscape = false;        } else if (orientation &gt; 225 &amp;&amp; orientation &lt; 315) {            mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);            isLandscape = true;        } else if ((orientation &gt; 315 &amp;&amp; orientation &lt; 360) || (orientation &gt; 0 &amp;&amp; orientation &lt; 45)) {            mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);            isLandscape = false;        }    }</code></pre><h3 id="三、使用"><a href="#三、使用" class="headerlink" title="三、使用"></a>三、使用</h3><ol><li>Activity的onResume()方法调用start()方法进行注册监听</li><li>Activity的onPause()方法调用stop()方法注销监听</li><li>点击全屏按钮时调用toggleRotate()自动切换横竖屏</li><li>如果需要手机系统的横竖屏按钮生效则调用setEffetSysSetting(true)</li></ol><h3 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h3><p>关于重力感应横竖屏其实并不是很难，根据实际的需求去做，一步一步考虑逻辑。这个工具类也基本上是没用什么bug，也可以直接拿去用。如果对你有用可以到我的<a href="https://github.com/PingerOne/ScreenRotation" target="_blank" rel="noopener">Github</a>给个star哦，有什么问题欢迎issues哦。</p><p><a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">我的主页</a><br><a href="https://github.com/PingerOne/ScreenRotation" target="_blank" rel="noopener">Demo下载</a></p><hr><blockquote><p>欢迎大家访问我的<a href="http://www.jianshu.com/u/64f479a1cef7" target="_blank" rel="noopener">简书</a>，<a href="http://wanit.me/" target="_blank" rel="noopener">博客</a>和<a href="https://github.com/PingerOne" target="_blank" rel="noopener">GitHub</a>。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;开发时遇到播放视频要用重力感应来横竖屏，并且要有按钮点击横竖屏，查了很多资料，并参考了网上一些实现思路，终于把重力感应横竖屏完整实现，现封装成工具类，可以直接使用。&lt;/p&gt;
+&lt;h3 id=&quot;一、实现原理&quot;&gt;&lt;a href=&quot;#一、实现原理&quot; class=&quot;headerlink&quot; title=&quot;一、实现原理&quot;&gt;&lt;/a&gt;一、实现原理&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;既然是重力感应横竖屏，那就肯定要有重力感应，重力感应属于传感器的一类，所以需要用到重力感应传感器，不清楚的同学可以google一下。由于视频播放或者直播页面一直都需要重力感应，所以还需要绑定播放页面的生命周期来注册重力感应和注销重力感应。这样当注册重力感应后，就可以获取当前屏幕的朝向角度，根据这些角度来判断哪个范围需要横竖屏。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="https://pingerx.com/categories/Android/"/>
+    
+    
+      <category term="开发" scheme="https://pingerx.com/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Android" scheme="https://pingerx.com/tags/Android/"/>
     
       <category term="2017" scheme="https://pingerx.com/tags/2017/"/>
     
