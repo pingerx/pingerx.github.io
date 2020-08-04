@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://docsify.js.org">
-    <img alt="Pinger's Blog" src="https://i.loli.net/2019/02/16/5c67bc9b5e970.png" width="40%">
+  <a href="https://pingerx.com">
+    <img alt="Pinger's Blog" src="https://ae01.alicdn.com/kf/U476012d0778f4ec9ba33f30f64c6c14fr.png" width="40%">
   </a>
 </p>
 <p align="center">
