@@ -25,3 +25,8 @@ tags:
 ### rz命令
 * 使用rz命令，在具体的目录下命令行输入`sudo rz`命令，选择文件即可上传到该目录
 
+### 文件操作
+* 列举当前目录文件权限: `ls -l`
+* 当前目录指定文件权限：`chmod a+x filename`
+* 指定目录文件权限:`chmod 777 /home/pinger`
+* 指定目录及该目录下的子目录和子文件的权限:`chmod -R 777 /home/pinger`

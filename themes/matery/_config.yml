@@ -44,7 +44,7 @@ music:
   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false # 列表默认折叠
+  listFolded: true # 列表默认折叠
   listMaxHeight: #列表最大高度
 
 # Whether to display the title of the recommended posts
@@ -261,27 +261,6 @@ googleAnalytics:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+- /medias/default/0.jpg
+- /medias/default/1.jpg
+- /medias/default/2.jpg
