@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingerx.com/"/>
-  <updated>2020-01-06T10:56:26.560Z</updated>
+  <updated>2020-08-04T12:59:00.598Z</updated>
   <id>https://pingerx.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pingerx.com/2020/01/06/windows-yong-jiu-ji-huo/"/>
     <id>https://pingerx.com/2020/01/06/windows-yong-jiu-ji-huo/</id>
     <published>2020-01-05T16:00:00.000Z</published>
-    <updated>2020-01-06T10:56:26.560Z</updated>
+    <updated>2020-08-04T12:59:00.598Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Windows-10永久激活"><a href="#Windows-10永久激活" class="headerlink" title="Windows 10永久激活"></a>Windows 10永久激活</h3><p>现在市面上大致有两种主流激活方法，一种是通过激活码来激活，另外一种是通过激活工具来激活。但是激活工具有个弊端就是激活时间只有180天。<br>偶然看到另一个超级简单的永久激活方法，顺带记录下来。</p><p>在命令行中依次输入：</p><ol><li><code>slmgr.vbs /upk</code>，提示“已成功卸载了产品秘钥”</li><li><code>slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX</code>，提示“成功的安装了产品秘钥”</li><li><code>slmgr /skms zh.us.to</code>，提示“密钥管理服务计算机名成功的设置为 zh.us.to”</li><li><code>slmgr /ato</code>，提示“成功的激活了产品”</li></ol><h2 id="秘钥记录"><a href="#秘钥记录" class="headerlink" title="秘钥记录"></a>秘钥记录</h2><h3 id="Windows-10系统"><a href="#Windows-10系统" class="headerlink" title="Windows 10系统"></a>Windows 10系统</h3><ul><li><p>企业版：XGVPP-NMH47-7TTHJ-W3FW7-8HV2C</p></li><li><p>教育版：YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY</p></li><li><p>专业版N：2B87N-8KFHP-DKV6R-Y2C8J-PKCKT</p></li><li><p>企业版N：WGGHN-J84D6-QYCPR-T7PJ7-X766F</p></li><li><p>教育版N：84NGF-MHBT6-FXBX8-QWJK7-DRR8H</p></li><li><p>企业版S：FWN7H-PF93Q-4GGP8-M8RF3-MDWWW</p></li><li><p>单语言版：BT79Q-G7N6G-PGBYW-4YWX6-6F4BT</p></li><li><p>Windows 10 Core Single Language:JPYNJ-XTFCR-372YJ-YJJ4Q-G83YB</p></li><li><p>Windows 10 Core 中文版 Language Edition:R3BYW-CBNWT-F3JTP-FM942-BTDXY</p></li><li><p>Windows 10 Core :KTNPV-KTRK4-3RRR8-39X6W-W44T3</p></li><li><p>Windows 10 Pro:8N67H-M3CY9-QT7C4-2TR7M-TXYCV</p></li><li><p>Windows 10 Enterprise:CKFK9-QNGF2-D34FM-99QX3-8XC4K</p></li><li><p>Windows 10 Core Single Language :JPYNH-XTFCR-372YJ-YJJ3Q-G83YB</p></li><li><p>Windows 10 Core Chinese Languange Edition:R3BYW-CBNWT-F3JTP-FM942-BTDXY</p></li></ul><h3 id="Windows-10-Pro-win10专业版激活密钥"><a href="#Windows-10-Pro-win10专业版激活密钥" class="headerlink" title="Windows 10 Pro(win10专业版激活密钥)"></a>Windows 10 Pro(win10专业版激活密钥)</h3><ul><li>TPYNC-4J6KF-4B4GP-2HD89-7XMP6</li><li>2BXNW-6CGWX-9BXPV-YJ996-GMT6T</li><li>NRTT2-86GJM-T969G-8BCBH-BDWXG</li><li>XC88X-9N9QX-CDRVP-4XV22-RVV26</li><li>TNM78-FJKXR-P26YV-GP8MB-JK8XG</li><li>TR8NX-K7KPD-YTRW3-XTHKX-KQBP6</li><li>VK7JG-NPHTM-C97JM-9MPGT-3V66T</li><li>NPPR9-FWDCX-D2C8J-H872K-2YT43</li><li>W269N-WFGWX-YVC9B-4J6C9-T83GX</li><li>NYW94-47Q7H-7X9TT-W7TXD-JTYPM</li><li>NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87</li><li>MH37W-N47XK-V7XM9-C7227-GCQG9</li></ul><h3 id="win10企业版："><a href="#win10企业版：" class="headerlink" title="win10企业版："></a>win10企业版：</h3><ul><li>Windows 10 Enterprise : NPPR9-FWDCX-D2C8J-H872K-2YT43</li><li>Windows 10 Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</li><li>Windows 10 Enterprise 2015 LTSB :WNMTR-4C88C-JK8YV-HQ7T2-76DF9</li><li>Windows 10 Enterprise 2015 LTSB N : 2F77B-TNFGY-69QQF-B8YKP-D6</li></ul><h3 id="win10预览版密钥："><a href="#win10预览版密钥：" class="headerlink" title="win10预览版密钥："></a>win10预览版密钥：</h3><ul><li>Win10企业版密钥：PBHCJ-Q2NYD-2PX34-T2TD6-233PK</li><li>Win10专业版密钥：NKJFK-GPHP7-G8C3J-P6JXR-HQRJR</li></ul>]]></content>
     
@@ -48,7 +48,7 @@
     <link href="https://pingerx.com/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/"/>
     <id>https://pingerx.com/2020/01/05/linux-fu-wu-duan-chang-yong-ming-ling/</id>
     <published>2020-01-04T16:00:00.000Z</published>
-    <updated>2020-01-06T10:56:26.558Z</updated>
+    <updated>2020-08-04T13:06:17.316Z</updated>
     
     <content type="html"><![CDATA[<h3 id="cd命令"><a href="#cd命令" class="headerlink" title="cd命令"></a>cd命令</h3><ul><li>进入目录：cd /dir</li><li>退出目录：cd ..</li></ul><h3 id="ls命令"><a href="#ls命令" class="headerlink" title="ls命令"></a>ls命令</h3><ul><li>查看当前目录文件和目录名：ls</li><li>查看当前目录文件，包含文件的属性与权限数据：ll</li></ul><h3 id="rz命令"><a href="#rz命令" class="headerlink" title="rz命令"></a>rz命令</h3><ul><li>使用rz命令，在具体的目录下命令行输入<code>sudo rz</code>命令，选择文件即可上传到该目录</li></ul>]]></content>
     
@@ -81,7 +81,7 @@
     <link href="https://pingerx.com/2019/12/28/fei-guo-mei-shi-da-qia/"/>
     <id>https://pingerx.com/2019/12/28/fei-guo-mei-shi-da-qia/</id>
     <published>2019-12-27T16:00:00.000Z</published>
-    <updated>2020-03-15T15:20:07.411Z</updated>
+    <updated>2020-08-04T13:09:20.835Z</updated>
     
     <content type="html"><![CDATA[<h3 id="China-Blue"><a href="#China-Blue" class="headerlink" title="China Blue"></a>China Blue</h3><p>位于Passy Conrad 酒店三楼。海景餐厅。去过两次，第一次和Emma的闺蜜团们，我请的客，喝了一瓶红酒，想把她男朋友丢到海里去。第二次和本地的华裔女孩Astrid，人很温柔，和她一起吃饭非常舒服。</p>]]></content>
     
@@ -104,11 +104,39 @@
   </entry>
   
   <entry>
-    <title>东南亚国家特产</title>
-    <link href="https://pingerx.com/2019/12/19/dong-nan-ya-te-chan-ji-lu/"/>
-    <id>https://pingerx.com/2019/12/19/dong-nan-ya-te-chan-ji-lu/</id>
+    <title>旅游计划</title>
+    <link href="https://pingerx.com/2019/12/19/lu-you-ji-hua/"/>
+    <id>https://pingerx.com/2019/12/19/lu-you-ji-hua/</id>
     <published>2019-12-18T16:00:00.000Z</published>
-    <updated>2019-12-19T06:32:58.884Z</updated>
+    <updated>2020-08-04T13:16:30.194Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><ul><li><p>攻略地址：<a href="https://www.tsunagujapan.com/zh-hans/" target="_blank" rel="noopener">https://www.tsunagujapan.com/zh-hans/</a></p></li><li><p>项目：春天看樱花</p></li></ul><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><ul><li>白沙滩</li><li>薄荷岛</li><li>长滩岛</li></ul><h4 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h4><ul><li>跳伞</li><li>深潜</li><li>山地车</li><li>直升机环岛游</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;日本&quot;&gt;&lt;a href=&quot;#日本&quot; class=&quot;headerlink&quot; title=&quot;日本&quot;&gt;&lt;/a&gt;日本&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;攻略地址：&lt;a href=&quot;https://www.tsunagujapan.com/zh-hans/&quot; target=&quot;
+      
+    
+    </summary>
+    
+      <category term="计划" scheme="https://pingerx.com/categories/%E8%AE%A1%E5%88%92/"/>
+    
+    
+      <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="计划" scheme="https://pingerx.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>东南亚国家特产</title>
+    <link href="https://pingerx.com/2019/12/19/dong-nan-ya-guo-jia-te-chan/"/>
+    <id>https://pingerx.com/2019/12/19/dong-nan-ya-guo-jia-te-chan/</id>
+    <published>2019-12-18T16:00:00.000Z</published>
+    <updated>2020-08-04T13:28:28.527Z</updated>
     
     <content type="html"><![CDATA[<p>唯有美食与爱不可辜负。希望有朝一日，能与爱人尝遍各国特产，感受各国异域风情。</p><h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><ul><li>北海道白色恋人（一个日本的朋友经常带过来吃，特别好吃的千克力饼干）</li><li>东京香蕉蛋糕</li><li>长崎蜂蜜蛋糕</li></ul><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><ul><li>芒果干（比较出名的品牌是：Cebu(宿务)和7D）</li><li>香蕉片（品牌：Jovy’ s）</li></ul>]]></content>
     
@@ -133,39 +161,11 @@
   </entry>
   
   <entry>
-    <title>旅游计划</title>
-    <link href="https://pingerx.com/2019/12/19/lu-you-ji-hua/"/>
-    <id>https://pingerx.com/2019/12/19/lu-you-ji-hua/</id>
-    <published>2019-12-18T16:00:00.000Z</published>
-    <updated>2020-03-15T15:21:10.802Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="日本"><a href="#日本" class="headerlink" title="日本"></a>日本</h3><ul><li><p>攻略地址：<a href="https://www.tsunagujapan.com/zh-hans/" target="_blank" rel="noopener">https://www.tsunagujapan.com/zh-hans/</a></p></li><li><p>项目：春天看樱花</p></li></ul><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><ul><li>白沙滩</li><li>薄荷岛</li><li>长滩岛</li></ul><h4 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h4><ul><li>跳伞</li><li>深潜</li><li>山地车</li><li>直升机环岛游</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;日本&quot;&gt;&lt;a href=&quot;#日本&quot; class=&quot;headerlink&quot; title=&quot;日本&quot;&gt;&lt;/a&gt;日本&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;攻略地址：&lt;a href=&quot;https://www.tsunagujapan.com/zh-hans/&quot; target=&quot;
-      
-    
-    </summary>
-    
-      <category term="计划" scheme="https://pingerx.com/categories/%E8%AE%A1%E5%88%92/"/>
-    
-    
-      <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="计划" scheme="https://pingerx.com/tags/%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
     <title>诗和远方</title>
     <link href="https://pingerx.com/2019/12/17/shi-he-yuan-fang/"/>
     <id>https://pingerx.com/2019/12/17/shi-he-yuan-fang/</id>
     <published>2019-12-16T16:00:00.000Z</published>
-    <updated>2020-03-15T15:20:12.354Z</updated>
+    <updated>2020-08-04T13:11:36.259Z</updated>
     
     <content type="html"><![CDATA[<h1 id="生活不仅有眼前的苟且，还有诗和远方。"><a href="#生活不仅有眼前的苟且，还有诗和远方。" class="headerlink" title="生活不仅有眼前的苟且，还有诗和远方。"></a>生活不仅有眼前的苟且，还有诗和远方。</h1><a id="more"></a><h3 id="2020年"><a href="#2020年" class="headerlink" title="2020年"></a>2020年</h3><ul><li>谈一对象</li><li>南昌买房</li><li>年底攒够50万</li><li>一个月至少一篇博客</li><li>英语口语练习</li><li>菲驾照，学会开车</li><li>来一次跳伞</li></ul><h3 id="2024年前"><a href="#2024年前" class="headerlink" title="2024年前"></a>2024年前</h3><ul><li>春天去日本看樱花</li><li>博士硕士双证，预计人民币30万</li></ul><h3 id="有生之前"><a href="#有生之前" class="headerlink" title="有生之前"></a>有生之前</h3><ul><li>养一只蓝猫和萨摩耶，期待猫狗大战</li><li>西藏自驾游</li><li>买一套外星人顶配电脑（玩LOL）</li><li>买一套PS4玩游戏</li></ul>]]></content>
     
@@ -218,7 +218,7 @@
     <link href="https://pingerx.com/2019/03/04/ru-he-zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/"/>
     <id>https://pingerx.com/2019/03/04/ru-he-zai-xing-ba-ke-yu-kuai-de-shi-yong-ying-wen-dian-can/</id>
     <published>2019-03-03T16:00:00.000Z</published>
-    <updated>2019-12-17T10:27:22.947Z</updated>
+    <updated>2020-08-04T13:22:10.385Z</updated>
     
     <content type="html"><![CDATA[<p>有的时候衡量一个人英语口语好不好，只需要看这个人能不能在星巴克优雅的点一杯咖啡。在星巴克来来回回也点了上百次了，从第一次不知道怎么选和说，到现在闭着眼睛都能背菜单，中间也就差个上百次～</p><p><img src="https://i.loli.net/2019/12/17/OXIbZUleY6wKGgh.jpg" alt></p><p>在说星巴克点咖啡之前，我们先来简单介绍一下星巴克。星巴克英文名叫Starbucks，发源地与总部位于美国华盛顿州西雅图，是一家全球最大的连锁咖啡店。实际上星巴克是一个自定义饮品的休闲区，只要你不扰乱秩序，你在里面看书、蹭网、聊天、休息等等都OK，至于你点没点饮料，坐多久，是没人会管的。</p><p>同时，在点餐之前，我们要先了解一下星巴克咖啡的常识。</p><ul><li><p>杯型。星巴克的杯子有三种型号，Tall为中杯，Grande为大杯，Venti为超大杯。男生一般选Grande就够了，女生一般选Tall或者Grande。当然如果你要坐下来慢慢喝，你也可以点Venti杯型，既划算，又可以喝很久。<br><img src="https://i.loli.net/2019/12/17/LlKEVZbWpn9yIXa.jpg" alt="杯型"></p></li><li><p>温度。热饮：<code>Hot Drink</code>，含冰冷饮：<code>Iced Drink</code>，去冰：<code>No Ice</code>，少冰 ：<code>Easy On Ice</code>。比如我要点一杯热牛奶，就可以说 <code>I want a cup of hot milk</code> 或者直接 <code>hot milk</code> 都是可以的。</p></li><li><p>糖浆。星巴克所有甜的饮品都是放糖浆的。一般有榛果糖浆：Hazelnut Syrup，香草糖浆：Vanilla Syrup，焦糖糖浆：Caramel Syrup。个人点香草的比较多，非常符合我的口味。</p></li></ul>]]></content>
     
@@ -246,7 +246,7 @@
     <link href="https://pingerx.com/2019/03/02/xiao-mi-8-lite-shou-ji-shua-ji-ti-yan/"/>
     <id>https://pingerx.com/2019/03/02/xiao-mi-8-lite-shou-ji-shua-ji-ti-yan/</id>
     <published>2019-03-01T16:00:00.000Z</published>
-    <updated>2019-12-17T10:26:21.760Z</updated>
+    <updated>2020-08-04T13:25:22.048Z</updated>
     
     <content type="html"><![CDATA[<p>最近使用小米8手机，发现miui系统还是挺不错的，但是有一个很致命的缺点，就是广告太多了，而且不能安装谷歌服务。<br>miui系统除了有国内的版本，还有全球版。全球版内置了谷歌服务，并且没有广告，使用起来也是爽歪歪。</p><h4 id="所以毫不犹豫，选择刷机。"><a href="#所以毫不犹豫，选择刷机。" class="headerlink" title="所以毫不犹豫，选择刷机。"></a>所以毫不犹豫，选择刷机。</h4><p>在网上找了下刷机的教程，知乎有个专题专门提供全球版刷机解决方案，按照里面的流程刷了一次，直接成功。</p><p><a href="https://www.zhihu.com/question/50231539" target="_blank" rel="noopener">知乎专题</a></p><p>刷机分为两种，一种是将rom包放到手机里，在手机的升级界面选择rom包进行升级刷机。一种是使用线刷工具，将rom包刷进手机。两种方式都是非常的简单。</p><p><a href="http://en.miui.com/a-232.html" target="_blank" rel="noopener">刷机教程</a></p><p>写完了这段文字，手机也刚刷好~ 又可以继续愉快的玩耍了。</p><hr><p>2月6号，突然发现，之前刷的那个国际版本部分页面还是有谷歌的广告，蛋疼。<br>知乎上有个回答是使用欧盟官方分销商ABC Data认可的MIUI系统。<a href="https://xiaomi.eu/community/" target="_blank" rel="noopener">xiaomi.eu</a></p>]]></content>
     
@@ -388,7 +388,7 @@
     <link href="https://pingerx.com/2018/04/15/yi-lu-xiang-nan-guo-wo-de-sheng-huo/"/>
     <id>https://pingerx.com/2018/04/15/yi-lu-xiang-nan-guo-wo-de-sheng-huo/</id>
     <published>2018-04-14T16:00:00.000Z</published>
-    <updated>2019-12-17T10:40:18.684Z</updated>
+    <updated>2020-08-04T13:32:17.149Z</updated>
     
     <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=526472371&auto=0&height=66"></iframe><hr><p>选择学校,一路向北。离开学校，一路向南。</p><p>北方的第一年生活真的不太适应，走在路上都觉得别扭，<br>尤其听着导员的东北口音，感觉自己在炼狱里。<br>逃课应该是从大二开始吧，每天窝在图书馆没日没夜码代码，痛并快乐着。<br>特感谢那一年的我，厚积薄发。<br>大三那年为了考软考高级证书，硬是把２万字的作文背了下来，<br>花了两个学期，拿了两个证书，只是现在并没有用到。</p><p>怀念大学的时光，虽然每天都重复着，<br>但是每天都有不一样的精彩，现在想起来觉得很珍贵。<br>毕业后，大衡和小生在北京做后台，东东在新疆搞大数据，<br>曲博在杭州做后台，承JB在杭州做h5前端，我在深圳做Android开发。</p><a id="more"></a>   <img width="40%" src="http://p6jk8aaz8.bkt.clouddn.com/20180415212044.jpg"><p>刚到深圳时，感觉整个世界只有自己，<br>现在觉得自己很幸运，能遇到好朋友，<br>但也觉得自己很悲哀，不善交际，更没有精力去提高。</p><p>有的时候真的觉得很无聊。<br>所以我一个人去电影院看了《雷神３》和《头号玩家》，<br>电影很不错，而且左右两边都是漂亮妹子。</p><p>很意外，子英居然也在深圳，也很惭愧，我竟一无所知。<br>想起当初离校时的匆忙，也许记得的只有自己吧。</p><p>清明假期，游志勇过来深圳了。<br>据他自己说是先到珠海的东澳岛荒野求生（其实是变天降温刮大风），<br>逃离后来深圳找我们玩的。<br>所以我带了两件外套后，带他到海上世界和欢乐海岸继续吹风。</p><p>我催着子英计划日本旅游，她说年底去，但是我感觉很虚。<br>几个人相聚就差仕进了，他还在南昌上班，<br>他说攒点工作经验就要回去继承家业了。<br>程序猿表示羡慕。</p><img width="40%" src="http://p6jk8aaz8.bkt.clouddn.com/20180415212506.jpg"><p>自己想做很多东西，虽然不一定能做起来，<br>但我还是去注册了一个公司，叫雷播科技。<br>一步一个脚印，只是为了有更丰富的人生。</p><p>没有人会主动迎合普通人，除非你是大神级别，<br>不然你只能去奉承别人。这却是我最讨厌的。<br>我这个人很现实，考虑到的事情基本都是坏的，<br>有时候让我变得很消极，也让我错过了很多的机会。</p><p>像我这样孤僻性格的人，不会讨人喜欢，也没有资格去喜欢别人。</p><p>许久未见，甚是想念，大家都还好吗。</p>]]></content>
     
@@ -406,9 +406,9 @@
       <category term="生活" scheme="https://pingerx.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="2018" scheme="https://pingerx.com/tags/2018/"/>
-    
       <category term="生活" scheme="https://pingerx.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="2018" scheme="https://pingerx.com/tags/2018/"/>
     
       <category term="旧事" scheme="https://pingerx.com/tags/%E6%97%A7%E4%BA%8B/"/>
     
@@ -540,10 +540,10 @@
   
   <entry>
     <title>过客，一个人的朝圣</title>
-    <link href="https://pingerx.com/2017/09/14/guo-ke/"/>
-    <id>https://pingerx.com/2017/09/14/guo-ke/</id>
+    <link href="https://pingerx.com/2017/09/14/guo-ke-yi-ge-ren-de-zhao-sheng/"/>
+    <id>https://pingerx.com/2017/09/14/guo-ke-yi-ge-ren-de-zhao-sheng/</id>
     <published>2017-09-13T16:00:00.000Z</published>
-    <updated>2019-12-17T10:43:46.626Z</updated>
+    <updated>2020-08-04T13:35:05.149Z</updated>
     
     <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=471797594&auto=0&height=66"></iframe>---<p>没有谁能够想到 你会出现我身旁<br>也许是命运开的玩笑 不敢太靠近你的身边<br>怕你会嫌烦 只有一个人默默孤单<br>是什么让我们遇见的 是什么让距离更近了<br>不奢求你多好 给我多一点微笑</p><a id="more"></a>   <p>你只是一个过客 从我的世界路过<br>我不敢太多不舍 怕你看出我难过<br>也许我想的太多 却不能给你什么<br>努力把伤心变少 笑容变多就好了<br>我只是个陪伴者 陪着你伤心难过<br>寂寞它每天数着 你那么多的失落<br>你想要什么你说 只要我现在有的<br>我们之间的点点滴滴 我一直都记得</p><p>不敢太靠近你的身边 怕你会嫌烦<br>只有 一个人默默孤单<br>是什么让我们遇见的 是什么让距离更近了<br>不奢求你多好 再多给我一点微笑</p><p>我只是一个过客 从你的世界路过<br>我不敢太多不舍 怕你看出我难过<br>我想的太多 却不能给你什么<br>努力把伤心变少 笑容变多就好了<br>我只想每天陪着 陪着你伤心难过<br>寂寞它每天数着 你那么多的失落<br>你想要什么你说 只要我现在有的<br>我们之间的点点滴滴 我一直都记得</p>]]></content>
     
@@ -572,7 +572,7 @@
     <link href="https://pingerx.com/2017/09/12/liang-cheng-xu-shi/"/>
     <id>https://pingerx.com/2017/09/12/liang-cheng-xu-shi/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2019-12-17T10:36:13.284Z</updated>
+    <updated>2020-08-04T13:36:40.269Z</updated>
     
     <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=551347831&auto=0&height=66"></iframe>---<p>站在雨中目送你穿过那渡口<br>离岸的船舶漂走远去的轮廓<br>惆怅惹灯火 往事渐落寞<br>烟波起落 被遗忘的是我</p><a id="more"></a>   <p>十里洋场的繁华依旧<br>这幅光景也掩不去我的难过<br>曾陪我看过 老街的烟火<br>缘分蹉跎 花难结果</p><p>当海风吹凉霓虹 回首你无影踪<br>转眼旧盟已成空 赏夜色千家朦胧<br>风花雪月如梦 提醒我也曾爱过<br>任眼泪划伤面容 飘浮在情海中<br>横渡春夏与秋冬 这城市车水马龙<br>我心事无人懂 回忆让人更心痛</p><p>凉城中 不夜城的邂逅未断过<br>而你的温柔却早已年久失修<br>弄堂诉离愁 苔痕如伤口<br>我在那头 等你很久</p>]]></content>
     
