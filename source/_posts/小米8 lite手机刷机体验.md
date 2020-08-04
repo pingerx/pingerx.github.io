@@ -4,7 +4,7 @@ title: "小米8 lite手机刷机体验"
 date: 2019-03-02
 comments: true
 categories: "生活"
-img: https://i.loli.net/2019/12/17/BAOzs2ikFPGDCTN.png
+img: https://ae01.alicdn.com/kf/Uc27dbdbe33904fae8469bc6723cbe64dN.png
 tags:
 - 2019
 - 叙事
